@@ -67,6 +67,24 @@ PAL 7
 255,255,255
 NAME school
 
+PAL 8
+30,52,44
+120,140,120
+240,226,190
+NAME dublin
+
+PAL 9
+28,70,190
+255,128,60
+255,232,90
+NAME casa azul
+
+PAL 10
+16,112,124
+255,120,200
+255,255,255
+NAME mall
+
 ROOM 0
 w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w
 w,o,0,a,d,0,0,a,0,0,0,0,o,0,0,w
@@ -111,7 +129,7 @@ w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w
 NAME quik-stop parking lot
 EXT 7,0 0 7,14
 EXT 8,0 0 8,14
-EXT 14,11 2 7,12 FX fade_w DLG board
+EXT 14,11 2 7,7 FX fade_w DLG board
 PAL 0
 TUNE 2
 
@@ -119,95 +137,105 @@ ROOM 2
 s,0,0,0,0,0,s,0,0,0,0,0,s,0,0,s
 0,0,s,0,0,0,0,0,0,0,0,s,0,0,0,0
 0,0,0,0,s,0,0,0,0,0,0,0,0,0,0,0
-0,0,p,0,0,p,0,0,0,0,p,0,0,p,0,0
+0,0,p,0,0,0,p,0,0,p,0,0,0,p,0,0
 s,0,0,0,0,0,0,0,0,0,0,0,0,0,s,0
 0,0,0,0,0,0,0,0,s,0,0,0,0,0,0,0
 0,s,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 0,0,0,0,0,0,0,0,0,0,0,s,0,0,0,0
-0,0,p,0,0,0,0,0,0,0,0,0,0,p,0,0
 s,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 0,0,0,0,0,0,s,0,0,0,0,0,s,0,0,0
 0,0,s,0,0,0,0,0,0,0,0,0,0,0,0,0
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-0,0,0,0,s,0,0,0,0,0,0,0,s,0,0,0
+0,0,p,0,0,0,p,0,0,p,0,0,0,p,0,0
 0,s,0,0,0,0,0,0,0,s,0,0,0,0,0,0
 s,0,0,0,0,s,0,0,0,0,0,0,0,s,0,s
+0,0,0,0,s,0,0,0,0,0,0,0,s,0,0,0
+0,s,0,0,s,0,0,0,0,0,0,0,s,0,0,s
 NAME time hub
-EXT 2,3 3 2,13 FX fade_w DLG to_athens
-EXT 5,3 4 7,13 FX fade_w DLG to_france
-EXT 10,3 5 7,13 FX fade_w DLG to_vienna
-EXT 13,3 6 2,13 FX fade_w DLG to_egypt
-EXT 2,8 7 7,13 FX fade_w DLG to_future
-EXT 13,8 8 7,13 FX fade_w DLG to_home
+EXT 2,3 3 2,14 FX fade_w DLG to_athens
+EXT 6,3 4 8,14 FX fade_w DLG to_france
+EXT 9,3 5 8,14 FX fade_w DLG to_vienna
+EXT 13,3 6 2,14 FX fade_w DLG to_egypt
+EXT 2,11 9 8,14 FX fade_w DLG to_dublin
+EXT 6,11 10 8,14 FX fade_w DLG to_mexico
+EXT 9,11 7 8,13 FX fade_w DLG to_future
+EXT 13,11 11 7,13 FX fade_w DLG to_home
 PAL 1
 TUNE 4
 
 ROOM 3
 i,i,i,i,i,i,i,i,i,i,i,i,i,i,i,i
-i,0,0,0,0,0,0,0,0,0,0,0,0,0,0,i
-i,0,0,i,0,0,i,0,0,i,0,0,i,0,0,i
-i,0,0,0,0,0,0,0,0,0,0,0,0,0,0,i
-i,0,0,0,0,0,0,0,0,0,0,0,0,0,0,i
-i,0,0,0,0,0,0,0,0,0,0,0,0,0,0,i
-i,0,0,i,0,0,i,0,0,i,0,0,i,0,0,i
+i,0,0,0,0,0,0,0,0,0,0,i,i,i,i,i
+i,0,0,i,0,0,i,0,0,i,0,i,0,0,0,i
+i,0,0,0,0,0,0,0,0,0,0,i,0,0,0,i
+i,0,0,i,0,0,i,0,0,i,0,i,i,D,i,i
 i,0,0,0,0,0,0,0,0,0,0,0,0,0,0,i
 i,0,0,0,0,0,0,0,0,0,0,0,0,0,0,i
-i,0,0,0,0,0,0,0,0,0,i,i,i,i,i,i
-i,0,0,0,0,0,0,0,0,0,0,0,0,0,0,i
-i,0,0,0,0,0,0,0,0,0,0,0,0,0,0,i
-i,0,0,0,0,0,0,0,0,0,0,0,0,0,0,i
-i,0,0,0,0,0,0,0,0,0,0,0,0,0,0,i
+i,0,i,i,i,i,i,i,i,i,i,i,0,0,0,i
+i,0,i,0,0,0,0,0,0,0,0,i,0,0,0,i
+i,0,i,0,i,i,i,i,i,i,0,i,0,0,0,i
+i,0,i,0,i,0,0,0,0,i,0,i,0,0,0,i
+i,0,i,0,i,0,i,0,0,i,0,i,0,0,0,i
+i,0,0,0,i,0,i,i,i,i,0,0,0,0,0,i
+i,i,i,i,i,0,0,0,0,0,0,0,0,0,0,i
 i,p,0,0,0,0,0,0,0,0,0,0,0,0,0,i
 i,i,i,i,i,i,i,i,i,i,i,i,i,i,i,i
 NAME athens 399 bc
-ITM s 12,3
+ITM l 7,11
+ITM s 13,2
 EXT 1,14 2 2,4 FX fade_b DLG to_hub
+EXT 13,4 3 13,3 DLG gate_athens
 PAL 2
 TUNE 3
 
 ROOM 4
 M,M,M,M,M,M,M,M,M,M,M,M,M,M,M,M
-m,0,0,0,0,0,0,0,0,0,0,0,0,0,0,m
-m,0,t,0,0,t,0,0,0,0,0,t,0,0,0,m
-m,0,0,0,0,0,0,0,0,0,0,0,0,0,0,m
-m,0,0,0,m,m,m,m,m,m,m,m,0,0,0,m
-m,0,0,0,m,0,0,0,0,0,0,m,0,0,0,m
-m,0,0,0,m,0,0,0,0,0,0,m,0,0,0,m
-m,0,0,0,m,0,0,0,0,0,0,m,0,0,0,m
-m,0,0,0,m,m,m,0,0,m,m,m,0,0,0,m
-m,0,0,0,0,0,0,0,0,0,0,0,0,0,0,m
-m,0,t,0,0,0,0,0,0,0,0,0,t,0,0,m
-m,0,0,0,0,0,0,0,0,0,0,0,0,0,0,m
-m,0,0,0,0,0,0,t,0,0,0,0,0,0,0,m
-m,0,0,0,0,0,0,0,0,0,0,0,0,0,0,m
+m,0,0,t,0,0,0,t,0,0,0,0,0,0,0,m
+m,0,t,t,0,t,0,t,0,m,m,m,m,m,0,m
+m,0,0,0,0,t,0,0,0,m,0,0,0,m,0,m
+m,0,t,t,t,t,t,0,0,m,0,0,0,m,0,m
+m,0,t,0,0,0,t,0,0,m,m,D,m,m,0,m
+m,0,t,0,t,0,t,0,0,0,0,0,0,0,0,m
+m,0,t,0,t,0,t,t,t,t,t,0,0,0,0,m
+m,0,0,0,t,0,0,0,0,0,t,0,0,0,0,m
+m,0,t,t,t,t,t,t,t,0,t,0,0,0,0,m
+m,0,0,0,0,0,0,0,0,0,t,0,0,0,0,m
+m,t,t,t,t,t,t,t,t,0,t,0,0,0,0,m
+m,0,0,0,0,0,0,0,0,0,t,0,0,0,0,m
+m,0,t,t,t,t,t,t,t,t,0,0,0,0,0,m
 m,0,0,0,0,0,0,p,0,0,0,0,0,0,0,m
 m,m,m,m,m,m,m,m,m,m,m,m,m,m,m,m
 NAME orleans 1429
-ITM j 7,6
-EXT 7,14 2 5,4 FX fade_b DLG to_hub
+ITM n 3,5
+ITM j 11,3
+EXT 7,14 2 6,4 FX fade_b DLG to_hub
+EXT 11,5 4 11,4 DLG gate_france
 PAL 3
 TUNE 3
 
 ROOM 5
 m,m,m,m,m,m,m,m,m,m,m,m,m,m,m,m
+m,0,k,k,k,0,m,0,0,0,0,0,0,0,0,m
+m,0,0,0,0,0,m,0,0,v,0,0,v,0,0,m
+m,0,0,0,0,0,m,0,0,0,0,0,0,0,0,m
+m,m,m,D,m,m,m,0,0,v,0,0,v,0,0,m
 m,0,0,0,0,0,0,0,0,0,0,0,0,0,0,m
-m,0,0,0,k,k,k,0,0,0,0,0,0,0,0,m
+m,0,0,v,0,0,v,0,0,m,m,m,m,0,0,m
+m,0,0,0,0,0,0,0,0,m,0,0,m,0,0,m
+m,0,0,v,0,0,v,0,0,m,0,0,m,0,0,m
+m,0,0,0,0,0,0,0,0,m,m,0,m,0,0,m
 m,0,0,0,0,0,0,0,0,0,0,0,0,0,0,m
-m,0,0,0,0,0,0,0,0,0,0,0,0,0,0,m
-m,0,0,0,0,v,0,0,v,0,0,v,0,0,0,m
-m,0,0,0,0,0,0,0,0,0,0,0,0,0,0,m
-m,0,0,0,0,v,0,0,v,0,0,v,0,0,0,m
-m,0,0,0,0,0,0,0,0,0,0,0,0,0,0,m
-m,0,0,0,0,v,0,0,v,0,0,v,0,0,0,m
-m,0,0,0,0,0,0,0,0,0,0,0,0,0,0,m
-m,0,0,0,0,0,0,0,0,0,0,0,0,0,0,m
-m,0,0,0,0,0,0,0,0,0,0,0,0,0,0,m
-m,0,0,0,0,0,0,0,0,0,0,0,0,0,0,m
+m,m,m,m,m,0,0,0,0,0,0,0,0,0,0,m
+m,0,0,0,m,0,0,0,0,v,0,0,v,0,0,m
+m,0,0,0,m,0,0,0,0,0,0,0,0,0,0,m
 m,0,0,0,0,0,0,p,0,0,0,0,0,0,0,m
 m,m,m,m,m,m,m,m,m,m,m,m,m,m,m,m
 NAME vienna 1810
-ITM b 5,3
-EXT 7,14 2 10,4 FX fade_b DLG to_hub
+ITM p 14,1
+ITM p 11,8
+ITM p 2,13
+ITM b 1,2
+EXT 7,14 2 9,4 FX fade_b DLG to_hub
+EXT 3,4 5 3,3 DLG gate_vienna
 PAL 4
 TUNE 3
 
@@ -215,22 +243,24 @@ ROOM 6
 n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n
 n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-0,0,0,0,1,2,0,0,0,0,0,1,2,0,0,0
-0,0,0,1,3,3,2,0,0,0,1,3,3,2,0,0
-0,0,1,3,3,3,3,2,0,1,3,3,3,3,2,0
+0,0,0,0,1,2,0,0,0,0,0,0,0,0,0,0
+0,0,0,1,3,3,2,0,0,0,m,m,m,m,m,0
+0,0,1,3,3,3,3,2,0,0,m,0,0,0,m,0
+0,0,0,0,0,0,0,0,0,0,m,0,0,0,m,0
+0,h,0,0,0,0,h,0,0,0,m,m,D,m,m,0
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-0,h,0,0,0,0,h,0,0,0,0,h,0,0,0,0
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,h,0,0,0,0,0,0,0,0,0,h,0,0,0
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-0,0,h,0,0,0,0,0,0,0,0,0,0,0,0,0
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-0,0,0,0,0,0,0,0,0,0,0,h,0,0,0,0
+0,0,0,0,0,0,h,0,0,0,0,0,0,0,0,0
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 0,p,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 h,h,h,h,h,h,h,h,h,h,h,h,h,h,h,h
 NAME alexandria 40 bc
-ITM c 13,9
+ITM f 15,2
+ITM c 12,5
 EXT 1,14 2 13,4 FX fade_b DLG to_hub
+EXT 12,7 6 12,6 DLG gate_egypt
 PAL 5
 TUNE 3
 
@@ -252,7 +282,7 @@ F,0,0,0,0,0,0,0,0,0,0,0,0,0,0,F
 F,0,0,0,0,0,0,p,0,0,0,0,0,0,0,F
 F,F,F,F,F,F,F,F,F,F,F,F,F,F,F,F
 NAME the year 2688
-EXT 7,14 2 2,9 FX fade_b DLG to_hub
+EXT 7,14 2 9,10 FX fade_b DLG to_hub
 PAL 6
 TUNE 4
 
@@ -277,6 +307,109 @@ NAME pinecrest high gym
 END fin 7,5
 PAL 7
 TUNE 1
+
+ROOM 9
+w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w
+w,0,0,0,0,0,0,0,0,0,0,w,0,0,0,w
+w,0,W,W,0,W,W,0,W,W,0,w,0,0,0,w
+w,0,0,0,0,0,0,0,0,0,0,w,w,D,w,w
+w,0,0,0,0,0,0,0,0,0,0,0,0,0,0,w
+w,0,l,0,0,0,0,l,0,0,0,0,l,0,0,w
+w,0,0,0,Z,0,0,0,0,0,0,0,0,0,0,w
+w,0,0,0,0,0,0,0,0,0,0,0,0,0,0,w
+w,0,W,W,W,0,W,W,W,W,0,W,W,W,0,w
+w,0,0,0,0,0,0,0,0,0,0,0,0,0,0,w
+w,0,0,0,0,0,0,0,0,0,0,0,0,0,0,w
+w,0,0,0,0,l,0,0,0,0,l,0,0,0,0,w
+w,0,0,0,0,0,0,0,0,0,0,0,0,0,0,w
+w,0,0,0,0,0,0,0,0,0,0,0,0,0,0,w
+w,0,0,0,0,0,0,p,0,0,0,0,0,0,0,w
+w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w
+NAME dublin 1921
+ITM m 13,1
+EXT 7,14 2 2,10 FX fade_b DLG to_hub
+EXT 13,3 9 13,2 DLG gate_dublin
+PAL 8
+TUNE 3
+
+ROOM 10
+m,m,m,m,m,m,m,m,m,m,m,m,m,m,m,m
+m,0,0,0,0,E,m,0,0,0,0,0,0,0,0,m
+m,0,0,0,0,0,m,0,0,Y,0,0,Y,0,0,m
+m,0,0,0,0,0,m,0,0,0,0,0,0,0,0,m
+m,m,m,D,m,m,m,0,0,Y,0,0,Y,0,0,m
+m,0,0,0,0,0,0,0,0,0,0,0,0,0,0,m
+m,0,0,Y,0,0,Y,0,0,0,Y,Y,Y,Y,0,m
+m,0,0,0,0,0,0,0,0,0,Y,0,0,0,0,m
+m,0,0,Y,0,0,Y,0,0,0,Y,0,Y,Y,Y,m
+m,0,0,0,0,0,0,0,0,0,Y,0,0,0,0,m
+m,0,0,0,0,0,0,0,0,0,0,Y,Y,Y,0,m
+m,0,0,Y,0,0,Y,0,0,0,0,0,0,0,Y,m
+m,0,0,0,0,0,0,0,Y,Y,Y,Y,0,0,0,m
+m,0,0,0,0,0,0,0,0,0,0,0,0,0,0,m
+m,0,0,0,0,0,0,p,0,0,0,0,0,0,0,m
+m,m,m,m,m,m,m,m,m,m,m,m,m,m,m,m
+NAME coyoacan 1940
+ITM k 14,10
+ITM r 2,2
+EXT 7,14 2 6,10 FX fade_b DLG to_hub
+EXT 3,4 10 3,3 DLG gate_mexico
+PAL 9
+TUNE 3
+
+ROOM 11
+W,W,W,W,W,W,W,W,W,W,W,W,W,W,W,W
+W,k,k,k,0,0,0,0,0,0,0,B,B,B,0,W
+W,0,0,0,0,0,0,0,0,0,0,0,0,0,0,W
+W,0,h,0,0,0,0,0,0,0,0,0,h,0,0,W
+W,0,0,0,0,0,0,0,0,0,0,0,0,0,0,W
+W,0,0,0,0,0,O,O,0,0,0,0,0,0,0,W
+W,0,0,0,0,0,O,O,0,0,0,0,0,0,0,W
+W,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+W,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+W,0,0,0,0,0,0,0,0,0,0,0,0,0,0,W
+W,0,h,0,0,0,0,0,0,0,0,0,h,0,0,W
+W,0,0,0,0,0,0,0,0,0,0,0,0,0,0,W
+W,0,0,0,0,0,0,0,0,0,0,0,0,0,0,W
+W,0,0,0,0,0,0,0,0,0,0,0,0,0,0,W
+W,0,0,0,0,0,0,0,0,0,0,0,0,0,0,W
+W,W,W,W,W,W,W,W,W,W,W,W,W,W,W,W
+NAME pinecrest mall west
+ITM 3 2,2
+ITM 1 12,2
+ITM 2 2,13
+EXT 15,7 12 1,7
+EXT 15,8 12 1,8
+PAL 10
+TUNE 2
+
+ROOM 12
+W,W,W,W,W,W,W,W,W,W,W,W,W,W,W,W
+W,0,0,0,0,0,0,0,0,0,A,A,A,A,0,W
+W,0,0,0,0,0,0,0,0,0,0,0,0,0,0,W
+W,0,h,0,0,0,0,0,0,0,0,0,h,0,0,W
+W,0,0,0,0,0,0,0,0,0,0,0,0,0,0,W
+W,0,0,0,0,0,0,0,0,0,0,0,0,0,0,W
+W,0,0,0,0,0,0,0,0,0,0,0,0,0,0,W
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,W
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,W
+W,0,0,0,0,0,0,0,0,0,0,0,0,0,0,W
+W,0,h,0,0,0,0,0,0,0,0,0,h,0,0,W
+W,0,0,0,0,0,0,0,0,0,0,0,0,0,c,W
+W,0,0,0,0,0,0,0,0,0,0,0,0,0,0,W
+W,0,0,0,0,0,0,0,0,0,0,0,0,0,0,W
+W,0,0,0,0,0,0,0,0,0,0,0,0,0,0,W
+W,W,W,W,W,W,W,0,0,W,W,W,W,W,W,W
+NAME pinecrest mall east
+ITM 4 3,2
+ITM 5 12,2
+ITM 6 13,11
+EXT 0,7 11 14,7
+EXT 0,8 11 14,8
+EXT 7,15 8 7,13 FX fade_w DLG leave_mall
+EXT 8,15 8 8,13 FX fade_w DLG leave_mall
+PAL 10
+TUNE 2
 
 TIL 1
 00000001
@@ -325,17 +458,6 @@ TIL w
 00010001
 NAME brick
 WAL true
-
-TIL g
-00000000
-00000000
-00100000
-00100100
-00000100
-00000000
-00010000
-00000000
-NAME grass
 
 TIL c
 01111110
@@ -546,15 +668,6 @@ TIL l
 00010000
 00010000
 00111000
->
-00111000
-01111100
-00010000
-00010000
-00010000
-00010000
-00010000
-00111000
 NAME street lamp
 WAL true
 
@@ -658,6 +771,107 @@ TIL o
 NAME poster
 WAL true
 
+TIL D
+00111100
+01000010
+01000010
+01000110
+01000010
+01000010
+01000010
+01111110
+NAME door
+
+TIL Y
+00011000
+00011010
+01011010
+01011110
+01111000
+00011000
+00011000
+00011000
+NAME cactus
+WAL true
+
+TIL E
+00010000
+01111110
+01000010
+01011010
+01000010
+01111110
+00100100
+01000010
+NAME easel
+WAL true
+
+TIL Z
+00000000
+00011100
+00001000
+01111100
+10101010
+11111110
+10101010
+01000100
+NAME bicycle
+WAL true
+
+TIL B
+00000000
+01111110
+11111111
+00011000
+00011000
+00011000
+00111100
+00000000
+NAME food court table
+WAL true
+
+TIL A
+11111111
+10000001
+10110101
+10000001
+11111111
+10101011
+11111111
+11000011
+>
+11111111
+10000001
+10101101
+10000001
+11111111
+10101011
+11111111
+11000011
+NAME arcade machine
+WAL true
+
+TIL O
+00010000
+00101000
+00010000
+01010100
+11111111
+10000001
+11111111
+01111110
+>
+00101000
+00010000
+00101000
+00010000
+11111111
+10000001
+11111111
+01111110
+NAME fountain
+WAL true
+
 SPR A
 00111100
 01111110
@@ -723,9 +937,22 @@ SPR q
 00111100
 00100100
 00100100
-NAME plato kid
+NAME young plato
 DLG student
-POS 3 4,10
+POS 3 8,5
+
+SPR g
+00011000
+00111100
+00011000
+01111110
+10111101
+00111100
+00100100
+01100110
+NAME guard
+DLG guard
+POS 4 9,6
 
 SPR y
 00000000
@@ -747,7 +974,7 @@ SPR y
 01001000
 NAME goat
 DLG goat
-POS 4 11,11
+POS 4 13,12
 BLIP 1
 
 SPR e
@@ -761,7 +988,7 @@ SPR e
 11111111
 NAME countess
 DLG countess
-POS 5 4,11
+POS 5 8,10
 
 SPR f
 00000000
@@ -774,7 +1001,8 @@ SPR f
 00111110
 NAME temple cat
 DLG cat
-POS 6 11,12
+POS 6 13,8
+BLIP 1
 
 SPR j
 00111100
@@ -797,6 +1025,45 @@ SPR j
 NAME future dude
 DLG futuredude
 POS 7 7,6
+
+SPR n
+00000000
+01111100
+11111110
+00111100
+00011000
+01111110
+00111100
+00100100
+NAME newsboy
+DLG newsboy
+POS 9 3,10
+
+SPR o
+01111110
+00111100
+00111100
+00011000
+01111110
+00111100
+00111100
+00100100
+NAME gardener
+DLG gardener
+POS 10 8,13
+
+SPR c
+01111110
+00111100
+00111100
+00011000
+01111110
+01011010
+00111100
+00100100
+NAME mall cop
+DLG cop
+POS 11 9,9
 
 SPR h
 00111100
@@ -824,6 +1091,84 @@ NAME rocko at school
 DLG rocko2
 POS 8 9,6
 
+ITM 1
+00111100
+01000010
+01011010
+01111110
+00111100
+01111110
+01111110
+00100100
+NAME socrates at mall
+DLG mall_socrates
+BLIP 3
+
+ITM 2
+00111100
+01111110
+01011010
+00111101
+01111111
+00111101
+00111100
+00100100
+NAME joan at mall
+DLG mall_joan
+BLIP 3
+
+ITM 3
+10101010
+01111110
+11011011
+01111110
+00111100
+01111110
+00111100
+00100100
+NAME beethoven at mall
+DLG mall_beethoven
+BLIP 3
+
+ITM 4
+00111100
+01111110
+11011011
+11111111
+10111101
+00111100
+00111100
+00100100
+NAME cleopatra at mall
+DLG mall_cleopatra
+BLIP 3
+
+ITM 5
+00111100
+01111100
+01100110
+01111110
+00111100
+01111110
+01011010
+00100100
+NAME collins at mall
+DLG mall_collins
+BLIP 3
+
+ITM 6
+10101010
+01111110
+01000010
+01111110
+01011010
+00111100
+01111110
+01111110
+NAME frida at mall
+DLG mall_frida
+BLIP 3
+
 ITM g
 00000011
 00000110
@@ -835,6 +1180,71 @@ ITM g
 01000000
 NAME air guitar
 DLG guitar
+BLIP 2
+
+ITM l
+00000000
+01111110
+10100101
+01000010
+01011010
+01000010
+10100101
+01111110
+NAME scroll
+DLG scroll
+BLIP 2
+
+ITM n
+01111000
+01111110
+01111100
+01111110
+01000000
+01000000
+01000000
+01000000
+NAME banner
+DLG banner
+BLIP 2
+
+ITM p
+01111110
+01000010
+01011010
+01000010
+01011010
+01000010
+01011010
+01111110
+NAME sheet music
+DLG page
+BLIP 2
+
+ITM f
+00000000
+00000000
+00111001
+01111111
+11011111
+01111111
+00111001
+00000000
+NAME fish
+DLG fish
+BLIP 2
+
+ITM k
+01100110
+01111110
+11011011
+01111110
+00111100
+01111110
+00100101
+00100010
+NAME monkey
+DLG monkey
 BLIP 2
 
 ITM s
@@ -889,6 +1299,32 @@ NAME cleopatra
 DLG cleopatra
 BLIP 3
 
+ITM m
+00111100
+01111100
+01100110
+01111110
+00111100
+01111110
+01011010
+00100100
+NAME michael collins
+DLG collins
+BLIP 3
+
+ITM r
+10101010
+01111110
+01000010
+01111110
+01011010
+00111100
+01111110
+01111110
+NAME frida kahlo
+DLG frida
+BLIP 3
+
 DLG rocko
 """
 {sequence
@@ -908,7 +1344,7 @@ DLG zip
 """
 {sequence
   - {clr2}???{/clr2}: Greetings, Gus of the year 1988. I am ZIP-7, a courier from the year 2688.{pg}ZIP: In my time, the whole planet runs on the music of Velvet Thunderstorm.{pg}ZIP: But if you fail tomorrow's history report, the band breaks up and the future gets... {shk}super lame{/shk}.
-  - ZIP: That arcade cabinet is the CHRONO-CADE. It can go anywhen.{pg}ZIP: Bring four great figures of history back to your school. Let THEM give your report.{pg}ZIP: The portal on the far right leads home. It will not open until four legends are aboard.
+  - ZIP: That arcade cabinet is the CHRONO-CADE. It can go anywhen.{pg}ZIP: Bring SIX great figures of history back to your school. Let THEM give your report.{pg}ZIP: Heads up: legends are busy people. Each one will want a favor first.{pg}ZIP: The bottom-right portal leads home. It will not open until six legends are aboard.
   - ZIP: Rocko will save your seats at the assembly. Now go! Time is, ironically, of the essence.
   - ZIP: {wvy}Bleep bloop. Rock on, past-human.{/wvy}
 }
@@ -935,6 +1371,14 @@ DLG to_egypt
 {clr2}ALEXANDRIA, EGYPT - 40 BC{/clr2}
 NAME to_egypt
 
+DLG to_dublin
+{clr2}DUBLIN, IRELAND - 1921{/clr2}
+NAME to_dublin
+
+DLG to_mexico
+{clr2}COYOACAN, MEXICO - 1940{/clr2}
+NAME to_mexico
+
 DLG to_future
 {clr2}PINECREST, EARTH - 2688{/clr2}
 NAME to_future
@@ -946,38 +1390,65 @@ NAME to_hub
 DLG to_home
 """
 {
-  - figs >= 4 ?
-    ZIP (on the radio): Four history legends aboard! Setting course for Pinecrest High, 9:58 AM...
+  - figs >= 6 ?
+    {property locked false}ZIP (on the radio): Six legends aboard! Course set for Pinecrest High, 9:58 AM...{pg}ZIP: ...wait. Uh oh. Wrong coordinates. You're landing at Pinecrest MALL. At 9:30.{pg}ZIP: Do NOT let them wander off.
   - else ?
-    {property "locked" true}ZIP (on the radio): Hold up, dude. You've only got {print figs} of 4 historical figures. Your report needs more history in it!
+    {property locked true}ZIP (on the radio): Hold up, dude. You've only got {print figs} of 6 historical figures. Your report needs more history in it!
 }
 """
 NAME to_home
 
-DLG socrates
-{figs = figs + 1}SOCRATES: You wish me to explain history to teenagers in the future?{pg}SOCRATES: I know only that I know nothing. So, honestly? I'll fit right in.{pg}{clr2}Socrates hops into the CHRONO-CADE. ({print figs}/4){/clr2}
-NAME socrates
-
-DLG joan
-{figs = figs + 1}JOAN OF ARC: A voice told me a stranger would come to fetch me in a glowing box.{pg}GUS: That's... weirdly accurate.{pg}JOAN: I am not afraid. I was born to do this. Lead on.{pg}{clr2}Joan of Arc hops into the CHRONO-CADE. ({print figs}/4){/clr2}
-NAME joan
-
-DLG beethoven
-{figs = figs + 1}GUS: Mr. Beethoven! Wanna come to the future and be in our report?{pg}BEETHOVEN: {shk}WHAT?{/shk}{pg}GUS: (miming air guitar) RE-PORT. FU-TURE. ROCK.{pg}BEETHOVEN: Ah! Finally, someone who speaks music.{pg}{clr2}Beethoven hops into the CHRONO-CADE. ({print figs}/4){/clr2}
-NAME beethoven
-
-DLG cleopatra
-{figs = figs + 1}CLEOPATRA: A boy with magnificent hair arrives in a box of lights. Explain yourself.{pg}GUS: Uh. Field trip? To 1988? There's a mall.{pg}CLEOPATRA: I speak nine languages. I will learn "mall."{pg}{clr2}Cleopatra hops into the CHRONO-CADE. ({print figs}/4){/clr2}
-NAME cleopatra
-
 DLG student
 """
 {sequence
-  - YOUNG PLATO: You seek my teacher? He is the bald man asking everyone annoying questions.
+  - YOUNG PLATO: You seek my teacher? He won't open his door until you answer his question.{pg}YOUNG PLATO: I wrote the answer on a scroll and hid it in the garden maze, south of here. For safekeeping. And drama.
   - YOUNG PLATO: I'm going to write ALL of this down someday.
 }
 """
 NAME student
+
+DLG scroll
+You found a scroll. It says one word, underlined three times: NOTHING.
+NAME scroll
+
+DLG gate_athens
+"""
+{
+  - {item "l"} >= 1 ?
+    {property locked false}SOCRATES (through the door): What is the only thing I truly know?{pg}GUS: (reading the scroll) Uh... NOTHING?{pg}SOCRATES: CORRECT. Come in, come in!
+  - else ?
+    {property locked true}SOCRATES (through the door): Before I go anywhere, answer me this: what is the only thing I truly know?{pg}GUS: Uh... how to make a sandwich?{pg}SOCRATES: Wrong! Come back when you know what I know.
+}
+"""
+NAME gate_athens
+
+DLG socrates
+{figs = figs + 1}SOCRATES: You wish me to explain history to teenagers in the future?{pg}SOCRATES: I know only that I know nothing. So, honestly? I'll fit right in.{pg}{clr2}Socrates hops into the CHRONO-CADE. ({print figs}/6){/clr2}{exit "2" 2 4 "fade_w"}
+NAME socrates
+
+DLG guard
+"""
+{sequence
+  - GUARD: The Maid sees no one without her banner. She dropped it somewhere in the woods to the west.{pg}GUARD: Again.
+  - GUARD: The woods are a maze. Start from the south and keep left, I always say. I have never been in the woods.
+}
+"""
+NAME guard
+
+DLG banner
+You found Joan's banner, slightly muddy. It still looks extremely inspiring.
+NAME banner
+
+DLG gate_france
+"""
+{
+  - {item "n"} >= 1 ?
+    {property locked false}GUARD: The banner! Pass, strange child with the strange hair.
+  - else ?
+    {property locked true}GUARD: Halt! None may enter without the Maid's banner.
+}
+"""
+NAME gate_france
 
 DLG goat
 """
@@ -989,24 +1460,122 @@ DLG goat
 """
 NAME goat
 
+DLG joan
+{figs = figs + 1}JOAN OF ARC: My banner! A voice told me a stranger would return it in a glowing box.{pg}GUS: That's... weirdly accurate.{pg}JOAN: I am not afraid. I was born to do this. Lead on.{pg}{clr2}Joan of Arc hops into the CHRONO-CADE. ({print figs}/6){/clr2}{exit "2" 6 4 "fade_w"}
+NAME joan
+
 DLG countess
 """
 {sequence
-  - COUNTESS: The maestro has gone quite deaf, you know. He composes by feeling the piano shake.
+  - COUNTESS: The maestro has lost three pages of his new piano piece. He is NOT taking it well.{pg}COUNTESS: One blew into the corner, one is in the closet, and one... who knows.
   - COUNTESS: Your trousers are extraordinary.
 }
 """
 NAME countess
 
+DLG page
+{pages = pages + 1}A page of sheet music! You have {print pages} of 3.
+NAME page
+
+DLG gate_vienna
+"""
+{
+  - pages >= 3 ?
+    {property locked false}You slide all three pages under the door. The shouting stops.{pg}The door creaks open.
+  - else ?
+    {property locked true}A sign on the door says MAESTRO AT WORK. From inside: muffled shouting about missing pages.{pg}(You have {print pages} of 3 pages.)
+}
+"""
+NAME gate_vienna
+
+DLG beethoven
+{figs = figs + 1}BEETHOVEN: My pages! Thank you, strange boy.{pg}GUS: Wanna come to the future and be in our report?{pg}BEETHOVEN: {shk}WHAT?{/shk}{pg}GUS: (miming air guitar) RE-PORT. FU-TURE. ROCK.{pg}BEETHOVEN: Ah! Finally, someone who speaks music.{pg}{clr2}Beethoven hops into the CHRONO-CADE. ({print figs}/6){/clr2}{exit "2" 9 4 "fade_w"}
+NAME beethoven
+
+DLG fish
+You found a fish by the river. It is a very good fish. Somebody would love this fish.
+NAME fish
+
 DLG cat
 """
-{cycle
-  - TEMPLE CAT: (stares at you like you owe it money)
-  - TEMPLE CAT: Mrrp. (Cleopatra is down by the palms, past the river.)
-  - TEMPLE CAT: (It has knocked something off a pyramid.)
+{
+  - catok == 1 ?
+    TEMPLE CAT: (purrs smugly)
+  - {item "f"} >= 1 ?
+    {catok = 1}{item "f" 0}You offer the fish. The temple cat accepts it like it was always hers.{pg}{clr2}The temple cat approves of you.{/clr2}
+  - else ?
+    TEMPLE CAT: (stares at you like you owe it a fish)
 }
 """
 NAME cat
+
+DLG gate_egypt
+"""
+{
+  - catok == 1 ?
+    {property locked false}The palace guards glance at the temple cat. The cat blinks. The guards step aside.
+  - else ?
+    {property locked true}PALACE GUARD: Nobody sees the Queen unless the temple cat approves.{pg}The temple cat looks unimpressed. And hungry.
+}
+"""
+NAME gate_egypt
+
+DLG cleopatra
+{figs = figs + 1}CLEOPATRA: My cat approves of you. That has never happened. Explain yourself.{pg}GUS: Uh. Field trip? To 1988? There's a mall.{pg}CLEOPATRA: I speak nine languages. I will learn "mall."{pg}{clr2}Cleopatra hops into the CHRONO-CADE. ({print figs}/6){/clr2}{exit "2" 13 4 "fade_w"}
+NAME cleopatra
+
+DLG newsboy
+"""
+{pw = 1}{sequence
+  - NEWSBOY: Extra, extra! Treaty talks in London!{pg}NEWSBOY: Looking for the Big Fellow, are ya? He sleeps somewhere different every night.{pg}NEWSBOY: Try the green door at the top of the street. Knock three times and say "the bicycle is outside."
+  - NEWSBOY: Everyone knows he gets around Dublin on a bicycle. Nobody ever catches him on it, mind.
+  - NEWSBOY: Three knocks. "The bicycle is outside." Off you go.
+}
+"""
+NAME newsboy
+
+DLG gate_dublin
+"""
+{
+  - pw == 1 ?
+    {property locked false}You knock three times. GUS: Um. The bicycle is outside?{pg}A long pause. The door opens a crack, then all the way.
+  - else ?
+    {property locked true}A voice behind the door: Wrong door, friend.{pg}(Maybe someone on the street knows how to get in.)
+}
+"""
+NAME gate_dublin
+
+DLG collins
+{figs = figs + 1}MICHAEL COLLINS: You found me, which is more than the authorities ever managed.{pg}GUS: We need you for a history report. In 1988.{pg}COLLINS: History, is it? I've been rather busy making some. Go on, then. I'll come along.{pg}{clr2}Michael Collins hops into the CHRONO-CADE. ({print figs}/6){/clr2}{exit "2" 2 10 "fade_w"}
+NAME collins
+
+DLG gardener
+"""
+{sequence
+  - GARDENER: Senora Frida won't open the studio. Her spider monkey, Fulang-Chang, ran off into the cactus garden.{pg}GARDENER: He likes the far east corner. Nobody can get in there. Except monkeys. And maybe you.
+  - GARDENER: Mind the cactus. The cactus does not mind you.
+}
+"""
+NAME gardener
+
+DLG monkey
+You scoop up Fulang-Chang the spider monkey. He immediately steals your sunglasses.
+NAME monkey
+
+DLG gate_mexico
+"""
+{
+  - {item "k"} >= 1 ?
+    {property locked false}Fulang-Chang squeaks at the door.{pg}FRIDA (inside): Fulang! You found him! Come in, come in!
+  - else ?
+    {property locked true}FRIDA (inside): Not now! My monkey has run off, and I cannot paint without him judging me.
+}
+"""
+NAME gate_mexico
+
+DLG frida
+{figs = figs + 1}FRIDA KAHLO: You found my monkey. You may stay.{pg}GUS: Actually, we need YOU to come to 1988. For a school report.{pg}FRIDA: I paint myself because I am the subject I know best. Let's see what your century knows about itself.{pg}{clr2}Frida Kahlo hops into the CHRONO-CADE. ({print figs}/6){/clr2}{exit "2" 6 10 "fade_w"}
+NAME frida
 
 DLG futuredude
 """
@@ -1018,10 +1587,54 @@ DLG futuredude
 """
 NAME futuredude
 
+DLG cop
+"""
+{sequence
+  - MALL COP: Hey! Are you responsible for the guy in the robe interrogating the corn dog stand?{pg}MALL COP: And the lady who drafted the sporting goods store into an army?{pg}MALL COP: Round them ALL up and get them out of my mall. Exit's on the east side.
+  - MALL COP: All of them. Every last toga.
+}
+"""
+NAME cop
+
+DLG mall_socrates
+{found = found + 1}SOCRATES is at the food court asking the corn dog guy what a corn dog truly IS. The corn dog guy is having a crisis.{pg}{clr2}Socrates rejoins the group. ({print found}/6){/clr2}
+NAME mall_socrates
+
+DLG mall_joan
+{found = found + 1}JOAN OF ARC has bought every tennis racket in the sporting goods store and is training the shoppers into an army.{pg}{clr2}Joan of Arc rejoins the group. ({print found}/6){/clr2}
+NAME mall_joan
+
+DLG mall_beethoven
+{found = found + 1}BEETHOVEN is playing the demo keyboard at Music Shack with the volume all the way up. He has invented synth-pop.{pg}{clr2}Beethoven rejoins the group. ({print found}/6){/clr2}
+NAME mall_beethoven
+
+DLG mall_cleopatra
+{found = found + 1}CLEOPATRA is at the makeup counter, explaining eyeliner to the experts. They are taking notes.{pg}{clr2}Cleopatra rejoins the group. ({print found}/6){/clr2}
+NAME mall_cleopatra
+
+DLG mall_collins
+{found = found + 1}MICHAEL COLLINS has the high score on every machine in the arcade, under the name BIG FELLOW.{pg}{clr2}Michael Collins rejoins the group. ({print found}/6){/clr2}
+NAME mall_collins
+
+DLG mall_frida
+{found = found + 1}FRIDA KAHLO is in the photo booth, painting on the photo strip. It is now the most valuable photo strip on Earth.{pg}{clr2}Frida Kahlo rejoins the group. ({print found}/6){/clr2}
+NAME mall_frida
+
+DLG leave_mall
+"""
+{
+  - found >= 6 ?
+    {property locked false}MALL COP: ...and STAY out!{pg}You herd six legends across the parking lot to Pinecrest High. 9:59 AM.
+  - else ?
+    {property locked true}You can't leave yet. You've only rounded up {print found} of 6 legends. They're scattered around both halves of the mall.
+}
+"""
+NAME leave_mall
+
 DLG teacher
 """
 {
-  - figs >= 4 ?
+  - found >= 6 ?
     MS. OKAFOR: Gus! You're late, and you've brought... guests? Well. Get up on that stage.
   - else ?
     MS. OKAFOR: Gus! You're late.
@@ -1034,10 +1647,22 @@ ROCKO: Dude! Where have you been?! And why is Beethoven eating a corn dog?{pg}RO
 NAME rocko2
 
 DLG fin
-GUS & ROCKO present: "WHO WAS HISTORY?"{pg}SOCRATES tells the whole gym he knows nothing. The gym agrees with him. Huge applause.{pg}JOAN OF ARC gives a pep talk so fierce the football team wins three games that afternoon.{pg}BEETHOVEN plays the school piano so hard it falls off the stage. He cannot hear the cheering, but he can feel it.{pg}CLEOPATRA takes over student council by lunch.{pg}MS. OKAFOR: ...A plus. A PLUS. I have no idea what just happened.{pg}Rocko stays in Pinecrest. Velvet Thunderstorm lives. The future is safe.{pg}{rbw}Stay rad. Share your snacks.{/rbw}{pg}THE END
+GUS & ROCKO present: "WHO WAS HISTORY?"{pg}SOCRATES tells the whole gym he knows nothing. The gym agrees with him. Huge applause.{pg}JOAN OF ARC gives a pep talk so fierce the football team wins three games that afternoon.{pg}BEETHOVEN plays the school piano so hard it falls off the stage. He cannot hear the cheering, but he can feel it.{pg}CLEOPATRA takes over student council by lunch.{pg}MICHAEL COLLINS explains how to negotiate a treaty. Three kids go on to become diplomats. Nobody can explain how he got to the gym.{pg}FRIDA KAHLO paints Ms. Okafor's portrait on the gym wall. Nobody is ever allowed to paint over it.{pg}MS. OKAFOR: ...A plus. A PLUS. I have no idea what just happened.{pg}Rocko stays in Pinecrest. Velvet Thunderstorm lives. The future is safe.{pg}{rbw}Stay rad. Share your snacks.{/rbw}{pg}THE END
 NAME fin
 
 VAR figs
+0
+
+VAR found
+0
+
+VAR catok
+0
+
+VAR pw
+0
+
+VAR pages
 0
 
 TUNE 1
@@ -1109,7 +1734,7 @@ SQR P2
 
 BLIP 2
 D5,E5,D5
-NAME strum
+NAME pickup
 ENV 99 65 6 96 152
 BEAT 95 0
 SQR P4
