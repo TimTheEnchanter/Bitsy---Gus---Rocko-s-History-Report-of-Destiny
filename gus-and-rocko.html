@@ -79,6 +79,12 @@ PAL 9
 255,232,90
 NAME casa azul
 
+PAL 11
+8,6,26
+70,58,140
+255,214,110
+NAME midnight
+
 PAL 10
 16,112,124
 255,120,200
@@ -430,9 +436,31 @@ u,0,0,0,0,0,0,0,0,0,0,0,0,0,0,u
 u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u
 NAME pinecrest high gym
 EXT 7,5 8 7,4 DLG stairs
-END fin 7,2
+EXT 7,2 14 7,11 FX fade_b DLG report
 PAL 7
 TUNE 1
+
+ROOM 14
+w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w
+w,0,0,0,0,0,0,0,0,0,0,0,0,0,0,w
+w,0,l,0,0,0,0,0,0,0,0,0,0,l,0,w
+w,0,0,0,0,0,0,0,0,0,0,0,0,0,0,w
+w,0,0,0,0,0,0,Q,0,0,0,0,0,0,0,w
+w,0,0,0,0,0,0,0,0,0,0,0,0,0,0,w
+w,0,L,0,L,0,L,0,0,0,0,L,0,L,0,w
+w,0,C,0,0,0,0,0,0,0,0,0,C,0,0,w
+w,0,0,0,0,0,0,0,0,0,0,0,0,0,0,w
+w,0,0,0,0,0,0,0,0,0,0,0,0,0,0,w
+w,0,0,0,0,0,0,0,0,0,0,0,0,0,0,w
+w,0,0,0,0,0,0,0,0,0,0,0,0,0,0,w
+w,0,0,0,0,0,0,0,0,0,0,0,0,0,0,w
+w,W,W,W,w,0,0,W,W,W,W,w,w,w,w,w
+w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w
+w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w
+NAME quik-stop at midnight
+END sequel 7,4
+PAL 11
+TUNE 13
 
 TIL w
 11111111
@@ -873,6 +901,35 @@ TIL A
 11000011
 NAME arcade machine
 WAL true
+
+TIL Q
+01111110
+01000010
+01010110
+01101010
+01111110
+01011010
+01111110
+01100110
+>
+01111110
+01011010
+01100110
+01010010
+01111110
+01011010
+01111110
+01100110
+>
+01111110
+01000010
+01111110
+01000010
+01111110
+01011010
+01111110
+01100110
+NAME glitching chrono-cade
 
 TIL O
 00010000
@@ -1439,6 +1496,50 @@ SPR R
 NAME rocko at school
 DLG rocko2
 POS 8 9,6
+
+SPR r3
+00111100
+01111110
+00100100
+00111100
+00011000
+01111110
+00111100
+00100100
+>
+00111100
+01111110
+00100100
+00111100
+00011000
+01111110
+00111100
+01000010
+NAME rocko at midnight
+DLG rocko3
+POS 14 5,9
+
+SPR z2
+00011000
+01111110
+01011010
+01111110
+00111100
+01111110
+00100100
+01100110
+>
+00000000
+01111110
+01011010
+01111110
+00111100
+01111110
+00100100
+01100110
+NAME zip at midnight
+DLG zip2
+POS 14 10,8
 
 SPR ls
 00111100
@@ -2355,9 +2456,31 @@ DLG school_collins
 """
 NAME school_collins
 
-DLG fin
-GUS & ROCKO present: "WHO WAS HISTORY?"{pg}SOCRATES tells the whole gym he knows nothing. The gym agrees with him. Huge applause.{pg}JOAN OF ARC gives a pep talk so fierce the football team wins three games that afternoon.{pg}BEETHOVEN plays the school piano so hard it falls off the stage. He cannot hear the cheering, but he can feel it.{pg}CLEOPATRA takes over student council by lunch.{pg}MICHAEL COLLINS explains how to negotiate a treaty. Three kids go on to become diplomats. Nobody can explain how he got to the gym.{pg}FRIDA KAHLO paints Ms. Okafor's portrait on the gym wall. Nobody is ever allowed to paint over it.{pg}MS. OKAFOR: ...A plus. A PLUS. I have no idea what just happened.{pg}MRS. KOWALSKI unpacks the car. Aunt Doris is told, gently, that Rocko is staying in Pinecrest.{pg}Velvet Thunderstorm lives. The future is safe.{pg}{rbw}Stay rad. Share your snacks.{/rbw}{pg}THE END
-NAME fin
+DLG report
+GUS & ROCKO present: "WHO WAS HISTORY?"{pg}SOCRATES tells the whole gym he knows nothing. The gym agrees with him. Huge applause.{pg}JOAN OF ARC gives a pep talk so fierce the football team wins three games that afternoon.{pg}BEETHOVEN plays the school piano so hard it falls off the stage. He cannot hear the cheering, but he can feel it.{pg}CLEOPATRA takes over student council by lunch.{pg}MICHAEL COLLINS explains how to negotiate a treaty. Three kids go on to become diplomats. Nobody can explain how he got to the gym.{pg}FRIDA KAHLO paints Ms. Okafor's portrait on the gym wall. Nobody is ever allowed to paint over it.{pg}MS. OKAFOR: ...A plus. A PLUS. I have no idea what just happened.{pg}MRS. KOWALSKI unpacks the car. Aunt Doris is told, gently, that Rocko is staying in Pinecrest.{pg}Velvet Thunderstorm lives. The future is safe.{pg}That night, Gus and Rocko fly six legends home.{pg}Then they head back to the Quik-Stop. They still never got those snacks.
+NAME report
+
+DLG rocko3
+"""
+{sequence
+  - ROCKO: Dude. We got an A PLUS. My mom hugged Michael Collins.{pg}ROCKO: I'm staying in Pinecrest, the band lives, and Beethoven says we have "potential."{pg}ROCKO: ...Why is the CHRONO-CADE still on?
+  - ROCKO: Nobody's touching it. It's just... playing by itself.
+}
+"""
+NAME rocko3
+
+DLG zip2
+"""
+{sequence
+  - ZIP: Gus! Rocko! All six legends are home safe. History is back on track. The future is rad again.{pg}ZIP: There is just one thing.{pg}ZIP: The CHRONO-CADE has one coin slot. One. And this morning, while you were chasing legends around the mall...{pg}ZIP: ...somebody ELSE put a quarter in.
+  - ZIP: I don't know who it was. I don't know WHEN they went. Look at the screen.
+}
+"""
+NAME zip2
+
+DLG sequel
+The CHRONO-CADE's screen flickers to life.{pg}{shk}PLAYER 2 HAS ENTERED THE GAME{/shk}{pg}HIGH SCORES{br}1. BIG FELLOW 1921{br}2. ??? 1888{br}3. ??? 3001{pg}ROCKO: Dude. Who is Player 2?{pg}GUS: Dude.{pg}ZIP: Uh oh.{pg}{rbw}GUS & ROCKO WILL RETURN{/rbw}{pg}HISTORY REPORT 2: EXTRA CREDIT{pg}THE END... FOR NOW
+NAME sequel
 
 VAR figs
 0
@@ -2542,6 +2665,16 @@ TUNE 11
 NAME mall synth
 TMP FST
 SQR P2 P8
+
+TUNE 13
+4E,0,0,0,4G,0,0,0,4F#,0,0,0,4D#,0,0,0
+16E2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+>
+4E,0,0,0,4B,0,0,0,4C5,0,0,0,4B,0,0,0
+8C2,0,0,0,0,0,0,0,8B2,0,0,0,0,0,0,0
+NAME player two
+TMP SLW
+SQR P8 P2
 
 TUNE 12
 4C5,0,0,0,4G,0,0,0,4E5,0,0,0,4D5,0,0,0
