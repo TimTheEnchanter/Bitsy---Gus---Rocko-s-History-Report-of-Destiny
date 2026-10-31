@@ -1,0 +1,1111 @@
+GUS & ROCKO'S HISTORY REPORT OF DESTINY
+
+# BITSY VERSION 8.12
+
+! VER_MAJ 8
+! VER_MIN 12
+! ROOM_FORMAT 1
+! DLG_COMPAT 0
+! TXT_MODE 0
+
+PAL 0
+34,22,64
+126,92,210
+255,214,110
+NAME garage night
+
+PAL 1
+8,6,20
+90,240,210
+255,110,210
+NAME time hub
+
+PAL 2
+238,222,184
+160,128,86
+44,40,96
+NAME athens
+
+PAL 3
+36,72,44
+150,156,160
+255,226,140
+NAME france
+
+PAL 4
+92,20,36
+222,178,92
+255,248,240
+NAME vienna
+
+PAL 5
+248,200,104
+196,112,40
+32,36,110
+NAME egypt
+
+PAL 6
+10,16,40
+60,120,255
+120,255,140
+NAME future
+
+PAL 7
+18,58,120
+255,196,0
+255,255,255
+NAME school
+
+ROOM 0
+w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w
+w,o,0,a,d,0,0,a,0,0,0,0,o,0,0,w
+w,0,0,0,0,0,0,0,0,0,0,0,0,0,0,w
+w,0,0,0,0,0,0,0,0,0,0,0,0,0,0,w
+w,0,0,0,0,0,0,0,0,0,0,0,0,0,0,w
+w,0,0,0,0,0,0,0,0,0,0,0,0,0,0,w
+w,0,0,0,0,0,0,0,0,0,0,0,0,0,0,w
+w,0,0,0,0,0,0,0,0,0,0,0,0,0,0,w
+w,0,0,0,0,0,0,0,0,0,0,0,0,0,0,w
+w,0,0,0,0,0,0,0,0,0,0,0,0,0,0,w
+w,0,0,0,0,0,0,0,0,0,0,0,0,0,0,w
+w,0,0,0,0,0,0,0,0,0,0,0,0,0,0,w
+w,0,0,0,0,0,0,0,0,0,0,0,0,0,0,w
+w,0,0,0,0,0,0,0,0,0,0,0,0,0,0,w
+w,0,0,0,0,0,0,0,0,0,0,0,0,0,0,w
+w,w,w,w,w,w,w,0,0,w,w,w,w,w,w,w
+NAME garage
+ITM g 12,4
+EXT 7,15 1 7,1
+EXT 8,15 1 8,1
+PAL 0
+TUNE 2
+
+ROOM 1
+w,w,w,w,w,w,w,0,0,w,w,w,w,w,w,w
+w,0,0,0,0,0,0,0,0,0,0,0,0,0,0,w
+w,0,l,0,0,0,0,0,0,0,0,0,0,l,0,w
+w,0,0,0,0,0,0,0,0,0,0,0,0,0,0,w
+w,0,L,0,L,0,L,0,L,0,0,0,0,0,0,w
+w,0,C,0,0,0,C,0,0,0,0,0,0,0,0,w
+w,0,0,0,0,0,0,0,0,0,0,0,0,0,0,w
+w,0,0,0,0,0,0,0,0,0,0,0,0,0,0,w
+w,0,0,0,0,0,0,0,0,0,0,0,0,0,0,w
+w,0,0,0,0,0,0,0,0,0,0,0,0,0,0,w
+w,0,0,0,0,0,0,0,0,0,0,0,0,0,0,w
+w,0,0,0,0,0,0,0,0,0,0,0,0,0,c,w
+w,0,0,0,0,0,0,0,0,0,0,0,0,0,0,w
+w,W,W,W,w,0,0,W,W,W,W,w,w,w,w,w
+w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w
+w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w
+NAME quik-stop parking lot
+EXT 7,0 0 7,14
+EXT 8,0 0 8,14
+EXT 14,11 2 7,12 FX fade_w DLG board
+PAL 0
+TUNE 2
+
+ROOM 2
+s,0,0,0,0,0,s,0,0,0,0,0,s,0,0,s
+0,0,s,0,0,0,0,0,0,0,0,s,0,0,0,0
+0,0,0,0,s,0,0,0,0,0,0,0,0,0,0,0
+0,0,p,0,0,p,0,0,0,0,p,0,0,p,0,0
+s,0,0,0,0,0,0,0,0,0,0,0,0,0,s,0
+0,0,0,0,0,0,0,0,s,0,0,0,0,0,0,0
+0,s,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,s,0,0,0,0
+0,0,p,0,0,0,0,0,0,0,0,0,0,p,0,0
+s,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,s,0,0,0,0,0,s,0,0,0
+0,0,s,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,s,0,0,0,0,0,0,0,s,0,0,0
+0,s,0,0,0,0,0,0,0,s,0,0,0,0,0,0
+s,0,0,0,0,s,0,0,0,0,0,0,0,s,0,s
+NAME time hub
+EXT 2,3 3 2,13 FX fade_w DLG to_athens
+EXT 5,3 4 7,13 FX fade_w DLG to_france
+EXT 10,3 5 7,13 FX fade_w DLG to_vienna
+EXT 13,3 6 2,13 FX fade_w DLG to_egypt
+EXT 2,8 7 7,13 FX fade_w DLG to_future
+EXT 13,8 8 7,13 FX fade_w DLG to_home
+PAL 1
+TUNE 4
+
+ROOM 3
+i,i,i,i,i,i,i,i,i,i,i,i,i,i,i,i
+i,0,0,0,0,0,0,0,0,0,0,0,0,0,0,i
+i,0,0,i,0,0,i,0,0,i,0,0,i,0,0,i
+i,0,0,0,0,0,0,0,0,0,0,0,0,0,0,i
+i,0,0,0,0,0,0,0,0,0,0,0,0,0,0,i
+i,0,0,0,0,0,0,0,0,0,0,0,0,0,0,i
+i,0,0,i,0,0,i,0,0,i,0,0,i,0,0,i
+i,0,0,0,0,0,0,0,0,0,0,0,0,0,0,i
+i,0,0,0,0,0,0,0,0,0,0,0,0,0,0,i
+i,0,0,0,0,0,0,0,0,0,i,i,i,i,i,i
+i,0,0,0,0,0,0,0,0,0,0,0,0,0,0,i
+i,0,0,0,0,0,0,0,0,0,0,0,0,0,0,i
+i,0,0,0,0,0,0,0,0,0,0,0,0,0,0,i
+i,0,0,0,0,0,0,0,0,0,0,0,0,0,0,i
+i,p,0,0,0,0,0,0,0,0,0,0,0,0,0,i
+i,i,i,i,i,i,i,i,i,i,i,i,i,i,i,i
+NAME athens 399 bc
+ITM s 12,3
+EXT 1,14 2 2,4 FX fade_b DLG to_hub
+PAL 2
+TUNE 3
+
+ROOM 4
+M,M,M,M,M,M,M,M,M,M,M,M,M,M,M,M
+m,0,0,0,0,0,0,0,0,0,0,0,0,0,0,m
+m,0,t,0,0,t,0,0,0,0,0,t,0,0,0,m
+m,0,0,0,0,0,0,0,0,0,0,0,0,0,0,m
+m,0,0,0,m,m,m,m,m,m,m,m,0,0,0,m
+m,0,0,0,m,0,0,0,0,0,0,m,0,0,0,m
+m,0,0,0,m,0,0,0,0,0,0,m,0,0,0,m
+m,0,0,0,m,0,0,0,0,0,0,m,0,0,0,m
+m,0,0,0,m,m,m,0,0,m,m,m,0,0,0,m
+m,0,0,0,0,0,0,0,0,0,0,0,0,0,0,m
+m,0,t,0,0,0,0,0,0,0,0,0,t,0,0,m
+m,0,0,0,0,0,0,0,0,0,0,0,0,0,0,m
+m,0,0,0,0,0,0,t,0,0,0,0,0,0,0,m
+m,0,0,0,0,0,0,0,0,0,0,0,0,0,0,m
+m,0,0,0,0,0,0,p,0,0,0,0,0,0,0,m
+m,m,m,m,m,m,m,m,m,m,m,m,m,m,m,m
+NAME orleans 1429
+ITM j 7,6
+EXT 7,14 2 5,4 FX fade_b DLG to_hub
+PAL 3
+TUNE 3
+
+ROOM 5
+m,m,m,m,m,m,m,m,m,m,m,m,m,m,m,m
+m,0,0,0,0,0,0,0,0,0,0,0,0,0,0,m
+m,0,0,0,k,k,k,0,0,0,0,0,0,0,0,m
+m,0,0,0,0,0,0,0,0,0,0,0,0,0,0,m
+m,0,0,0,0,0,0,0,0,0,0,0,0,0,0,m
+m,0,0,0,0,v,0,0,v,0,0,v,0,0,0,m
+m,0,0,0,0,0,0,0,0,0,0,0,0,0,0,m
+m,0,0,0,0,v,0,0,v,0,0,v,0,0,0,m
+m,0,0,0,0,0,0,0,0,0,0,0,0,0,0,m
+m,0,0,0,0,v,0,0,v,0,0,v,0,0,0,m
+m,0,0,0,0,0,0,0,0,0,0,0,0,0,0,m
+m,0,0,0,0,0,0,0,0,0,0,0,0,0,0,m
+m,0,0,0,0,0,0,0,0,0,0,0,0,0,0,m
+m,0,0,0,0,0,0,0,0,0,0,0,0,0,0,m
+m,0,0,0,0,0,0,p,0,0,0,0,0,0,0,m
+m,m,m,m,m,m,m,m,m,m,m,m,m,m,m,m
+NAME vienna 1810
+ITM b 5,3
+EXT 7,14 2 10,4 FX fade_b DLG to_hub
+PAL 4
+TUNE 3
+
+ROOM 6
+n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n
+n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,1,2,0,0,0,0,0,1,2,0,0,0
+0,0,0,1,3,3,2,0,0,0,1,3,3,2,0,0
+0,0,1,3,3,3,3,2,0,1,3,3,3,3,2,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,h,0,0,0,0,h,0,0,0,0,h,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,h,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,h,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,p,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+h,h,h,h,h,h,h,h,h,h,h,h,h,h,h,h
+NAME alexandria 40 bc
+ITM c 13,9
+EXT 1,14 2 13,4 FX fade_b DLG to_hub
+PAL 5
+TUNE 3
+
+ROOM 7
+F,F,F,F,F,F,F,F,F,F,F,F,F,F,F,F
+F,0,0,0,0,0,0,0,0,0,0,0,0,0,0,F
+F,0,F,F,0,0,F,F,0,0,F,F,0,0,0,F
+F,0,F,F,0,0,F,F,0,0,F,F,0,0,0,F
+F,0,0,0,0,0,0,0,0,0,0,0,0,0,0,F
+F,0,0,0,0,0,0,0,0,0,0,0,0,0,0,F
+F,0,0,0,0,0,0,0,0,0,0,0,0,0,0,F
+F,0,0,0,0,0,0,0,0,0,0,0,0,0,0,F
+F,0,0,s,0,0,0,0,0,0,0,s,0,0,0,F
+F,0,0,0,0,0,0,0,0,0,0,0,0,0,0,F
+F,0,0,0,0,0,0,0,0,0,0,0,0,0,0,F
+F,0,0,0,0,0,0,0,0,0,0,0,0,0,0,F
+F,0,0,0,0,0,0,0,0,0,0,0,0,0,0,F
+F,0,0,0,0,0,0,0,0,0,0,0,0,0,0,F
+F,0,0,0,0,0,0,p,0,0,0,0,0,0,0,F
+F,F,F,F,F,F,F,F,F,F,F,F,F,F,F,F
+NAME the year 2688
+EXT 7,14 2 2,9 FX fade_b DLG to_hub
+PAL 6
+TUNE 4
+
+ROOM 8
+u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u
+u,0,0,0,0,0,0,0,0,0,0,0,0,0,0,u
+u,0,0,0,0,0,0,0,0,0,0,0,0,0,0,u
+u,0,0,0,0,0,0,0,0,0,0,0,0,0,0,u
+u,0,S,S,S,S,S,S,S,S,S,S,S,S,0,u
+u,0,S,S,S,S,S,S,S,S,S,S,S,S,0,u
+u,0,S,S,S,S,S,S,S,S,S,S,S,S,0,u
+u,0,0,0,0,0,0,0,0,0,0,0,0,0,0,u
+u,0,0,0,0,0,0,0,0,0,0,0,0,0,0,u
+u,0,x,x,x,x,x,0,0,x,x,x,x,x,0,u
+u,0,x,x,x,x,x,0,0,x,x,x,x,x,0,u
+u,0,x,x,x,x,x,0,0,x,x,x,x,x,0,u
+u,0,0,0,0,0,0,0,0,0,0,0,0,0,0,u
+u,0,0,0,0,0,0,0,0,0,0,0,0,0,0,u
+u,0,0,0,0,0,0,0,0,0,0,0,0,0,0,u
+u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u
+NAME pinecrest high gym
+END fin 7,5
+PAL 7
+TUNE 1
+
+TIL w
+11111111
+00010001
+00010001
+11111111
+01000100
+01000100
+11111111
+00010001
+NAME brick
+WAL true
+
+TIL g
+00000000
+00000000
+00100000
+00100100
+00000100
+00000000
+00010000
+00000000
+NAME grass
+
+TIL c
+01111110
+01000010
+01011010
+01000010
+01111110
+01011010
+01111110
+01100110
+>
+01111110
+01000010
+01100110
+01000010
+01111110
+01011010
+01111110
+01100110
+NAME chrono-cade
+
+TIL s
+00000000
+00010000
+00111000
+00010000
+00000000
+00000000
+00000000
+00000000
+>
+00000000
+00000000
+00010000
+00000000
+00000010
+00000111
+00000010
+00000000
+NAME star
+
+TIL p
+00111100
+01000010
+10011001
+10100101
+10100101
+10011001
+01000010
+00111100
+>
+00111100
+01111110
+11000011
+11011011
+11011011
+11000011
+01111110
+00111100
+NAME portal
+
+TIL i
+11111111
+01111110
+01011010
+01011010
+01011010
+01011010
+01111110
+11111111
+NAME column
+WAL true
+
+TIL 1
+00000001
+00000011
+00000111
+00001111
+00011111
+00111111
+01111111
+11111111
+NAME pyramid left
+WAL true
+
+TIL 2
+10000000
+11000000
+11100000
+11110000
+11111000
+11111100
+11111110
+11111111
+NAME pyramid right
+WAL true
+
+TIL 3
+11111111
+11111111
+11101111
+11111111
+11111111
+11111110
+11111111
+11111111
+NAME pyramid fill
+WAL true
+
+TIL n
+00000000
+00110000
+11001100
+00000011
+00000000
+00110000
+11001100
+00000011
+>
+00000000
+00001100
+00110011
+11000000
+00000000
+00001100
+00110011
+11000000
+NAME nile
+WAL true
+
+TIL h
+01101100
+11111110
+10011001
+00010000
+00010000
+00010000
+00010000
+00111000
+NAME palm
+WAL true
+
+TIL m
+11111111
+10001001
+10001001
+11111111
+10010001
+10010001
+11111111
+10001001
+NAME stone
+WAL true
+
+TIL M
+11001100
+11001100
+11111111
+10001001
+10001001
+11111111
+10010001
+11111111
+NAME battlement
+WAL true
+
+TIL t
+00111100
+01111110
+11111111
+11111111
+01111110
+00011000
+00011000
+00111100
+NAME tree
+WAL true
+
+TIL k
+11111111
+10000000
+11111111
+11011011
+11011011
+11011011
+10010010
+11111111
+NAME piano
+WAL true
+
+TIL v
+00000000
+00011000
+00100100
+01000010
+01000010
+00100100
+00011000
+00000000
+NAME rug
+
+TIL a
+11111111
+10000001
+10111101
+10100101
+10100101
+10111101
+10000001
+11111111
+NAME amp
+WAL true
+
+TIL d
+11100111
+01000010
+00111100
+01111110
+01111110
+01111110
+00111100
+00100100
+NAME drums
+WAL true
+
+TIL C
+00000000
+00111100
+01100110
+11111111
+11111111
+11111111
+01100110
+00000000
+NAME car
+WAL true
+
+TIL l
+00111000
+01111100
+00010000
+00010000
+00010000
+00010000
+00010000
+00111000
+>
+00111000
+01111100
+00010000
+00010000
+00010000
+00010000
+00010000
+00111000
+NAME street lamp
+WAL true
+
+TIL L
+00010000
+00010000
+00010000
+00010000
+00010000
+00010000
+00010000
+00010000
+NAME parking line
+
+TIL W
+11111111
+10000001
+10110001
+10100001
+10000001
+10000101
+10000001
+11111111
+NAME shop window
+WAL true
+
+TIL S
+11111111
+00000000
+00010001
+00000000
+11111111
+00000000
+01000100
+00000000
+NAME stage
+
+TIL x
+00000000
+01100110
+11111111
+11111111
+01100110
+11111111
+11111111
+11111111
+>
+01100000
+11110110
+11111111
+01101111
+01100110
+11111111
+11111111
+11111111
+NAME crowd
+WAL true
+
+TIL u
+10110110
+10110110
+10110110
+10110110
+10110110
+10110110
+10110110
+10110110
+NAME curtain
+WAL true
+
+TIL F
+11111111
+10000001
+10110101
+10000001
+10101101
+10000001
+10110101
+11111111
+>
+11111111
+10000001
+10101101
+10000001
+10110101
+10000001
+10101101
+11111111
+NAME tower
+WAL true
+
+TIL o
+11111111
+10000001
+10011001
+10111101
+10011001
+10100101
+10000001
+11111111
+NAME poster
+WAL true
+
+SPR A
+00111100
+01111110
+01100110
+01100110
+01011010
+00111100
+00111100
+00100100
+>
+00111100
+01111110
+01100110
+01100110
+01011010
+00111100
+00111100
+01000010
+NAME gus
+POS 0 9,9
+
+SPR r
+00111100
+01111110
+00100100
+00111100
+00011000
+01111110
+00111100
+00100100
+NAME rocko
+DLG rocko
+POS 0 4,3
+
+SPR z
+00011000
+01111110
+01011010
+01111110
+00111100
+01111110
+00100100
+01100110
+>
+00000000
+01111110
+01011010
+01111110
+00111100
+01111110
+00100100
+01100110
+NAME zip
+DLG zip
+POS 1 10,8
+
+SPR q
+00011000
+00111100
+00011000
+01111110
+00011000
+00111100
+00100100
+00100100
+NAME plato kid
+DLG student
+POS 3 4,10
+
+SPR y
+00000000
+00000000
+10000000
+11111100
+01111100
+01111100
+01001000
+01001000
+>
+00000000
+10000000
+11000000
+01111100
+01111100
+01111100
+01001000
+01001000
+NAME goat
+DLG goat
+POS 4 11,11
+BLIP 1
+
+SPR e
+00111100
+00111100
+00011000
+00111100
+01111110
+01111110
+11111111
+11111111
+NAME countess
+DLG countess
+POS 5 4,11
+
+SPR f
+00000000
+00100010
+00111110
+00101010
+00111110
+00011100
+00111100
+00111110
+NAME temple cat
+DLG cat
+POS 6 11,12
+
+SPR j
+00111100
+01000010
+01111110
+00011000
+00111100
+01011010
+00011000
+00100100
+>
+00111100
+01000010
+01111110
+00011000
+10111101
+00011000
+00011000
+00100100
+NAME future dude
+DLG futuredude
+POS 7 7,6
+
+SPR h
+00111100
+01111110
+01100110
+01100110
+00111100
+01111110
+01111110
+00100100
+NAME ms okafor
+DLG teacher
+POS 8 2,6
+
+SPR R
+00111100
+01111110
+00100100
+00111100
+00011000
+01111110
+00111100
+00100100
+NAME rocko at school
+DLG rocko2
+POS 8 9,6
+
+ITM g
+00000011
+00000110
+00001100
+00011000
+01110000
+11110000
+11100000
+01000000
+NAME air guitar
+DLG guitar
+BLIP 2
+
+ITM s
+00111100
+01000010
+01011010
+01111110
+00111100
+01111110
+01111110
+00100100
+NAME socrates
+DLG socrates
+BLIP 3
+
+ITM j
+00111100
+01111110
+01011010
+00111101
+01111111
+00111101
+00111100
+00100100
+NAME joan of arc
+DLG joan
+BLIP 3
+
+ITM b
+10101010
+01111110
+11011011
+01111110
+00111100
+01111110
+00111100
+00100100
+NAME beethoven
+DLG beethoven
+BLIP 3
+
+ITM c
+00111100
+01111110
+11011011
+11111111
+10111101
+00111100
+00111100
+00100100
+NAME cleopatra
+DLG cleopatra
+BLIP 3
+
+DLG rocko
+"""
+{sequence
+  - ROCKO: Gus. Dude. Our oral history report is due at 10 AM tomorrow.{pg}ROCKO: If we flunk, my mom sends me to live with Aunt Doris in Nebraska.{pg}ROCKO: And then the band, Velvet Thunderstorm, is OVER.
+  - ROCKO: We still don't have a drummer, a bassist, or a single song. But the NAME, dude.
+  - ROCKO: Go to the Quik-Stop and get us snacks. Snacks help us think.
+  - ROCKO: {shk}Snacks, Gus.{/shk}
+}
+"""
+NAME rocko
+
+DLG guitar
+You grab your air guitar. It is not plugged in. It never is. {wvy}Sick.{/wvy}
+NAME guitar
+
+DLG zip
+"""
+{sequence
+  - {clr2}???{/clr2}: Greetings, Gus of the year 1988. I am ZIP-7, a courier from the year 2688.{pg}ZIP: In my time, the whole planet runs on the music of Velvet Thunderstorm.{pg}ZIP: But if you fail tomorrow's history report, the band breaks up and the future gets... {shk}super lame{/shk}.
+  - ZIP: That arcade cabinet is the CHRONO-CADE. It can go anywhen.{pg}ZIP: Bring four great figures of history back to your school. Let THEM give your report.{pg}ZIP: The portal on the far right leads home. It will not open until four legends are aboard.
+  - ZIP: Rocko will save your seats at the assembly. Now go! Time is, ironically, of the essence.
+  - ZIP: {wvy}Bleep bloop. Rock on, past-human.{/wvy}
+}
+"""
+NAME zip
+
+DLG board
+You drop a quarter into the CHRONO-CADE.{pg}{rbw}INSERT COIN... TIME TRAVEL!{/rbw}
+NAME board
+
+DLG to_athens
+{clr2}ATHENS, GREECE - 399 BC{/clr2}
+NAME to_athens
+
+DLG to_france
+{clr2}ORLEANS, FRANCE - 1429{/clr2}
+NAME to_france
+
+DLG to_vienna
+{clr2}VIENNA, AUSTRIA - 1810{/clr2}
+NAME to_vienna
+
+DLG to_egypt
+{clr2}ALEXANDRIA, EGYPT - 40 BC{/clr2}
+NAME to_egypt
+
+DLG to_future
+{clr2}PINECREST, EARTH - 2688{/clr2}
+NAME to_future
+
+DLG to_hub
+{wvy}whoosh{/wvy}
+NAME to_hub
+
+DLG to_home
+"""
+{
+  - figs >= 4 ?
+    ZIP (on the radio): Four history legends aboard! Setting course for Pinecrest High, 9:58 AM...
+  - else ?
+    {property "locked" true}ZIP (on the radio): Hold up, dude. You've only got {print figs} of 4 historical figures. Your report needs more history in it!
+}
+"""
+NAME to_home
+
+DLG socrates
+{figs = figs + 1}SOCRATES: You wish me to explain history to teenagers in the future?{pg}SOCRATES: I know only that I know nothing. So, honestly? I'll fit right in.{pg}{clr2}Socrates hops into the CHRONO-CADE. ({print figs}/4){/clr2}
+NAME socrates
+
+DLG joan
+{figs = figs + 1}JOAN OF ARC: A voice told me a stranger would come to fetch me in a glowing box.{pg}GUS: That's... weirdly accurate.{pg}JOAN: I am not afraid. I was born to do this. Lead on.{pg}{clr2}Joan of Arc hops into the CHRONO-CADE. ({print figs}/4){/clr2}
+NAME joan
+
+DLG beethoven
+{figs = figs + 1}GUS: Mr. Beethoven! Wanna come to the future and be in our report?{pg}BEETHOVEN: {shk}WHAT?{/shk}{pg}GUS: (miming air guitar) RE-PORT. FU-TURE. ROCK.{pg}BEETHOVEN: Ah! Finally, someone who speaks music.{pg}{clr2}Beethoven hops into the CHRONO-CADE. ({print figs}/4){/clr2}
+NAME beethoven
+
+DLG cleopatra
+{figs = figs + 1}CLEOPATRA: A boy with magnificent hair arrives in a box of lights. Explain yourself.{pg}GUS: Uh. Field trip? To 1988? There's a mall.{pg}CLEOPATRA: I speak nine languages. I will learn "mall."{pg}{clr2}Cleopatra hops into the CHRONO-CADE. ({print figs}/4){/clr2}
+NAME cleopatra
+
+DLG student
+"""
+{sequence
+  - YOUNG PLATO: You seek my teacher? He is the bald man asking everyone annoying questions.
+  - YOUNG PLATO: I'm going to write ALL of this down someday.
+}
+"""
+NAME student
+
+DLG goat
+"""
+{cycle
+  - GOAT: Baa.
+  - GOAT: Baaa. (It seems to believe in you.)
+  - GOAT: {shk}BAAAA.{/shk}
+}
+"""
+NAME goat
+
+DLG countess
+"""
+{sequence
+  - COUNTESS: The maestro has gone quite deaf, you know. He composes by feeling the piano shake.
+  - COUNTESS: Your trousers are extraordinary.
+}
+"""
+NAME countess
+
+DLG cat
+"""
+{cycle
+  - TEMPLE CAT: (stares at you like you owe it money)
+  - TEMPLE CAT: Mrrp. (Cleopatra is down by the palms, past the river.)
+  - TEMPLE CAT: (It has knocked something off a pyramid.)
+}
+"""
+NAME cat
+
+DLG futuredude
+"""
+{sequence
+  - FUTURE DUDE: Whoa! Is that... GUS? From the Velvet Thunderstorm history scrolls?{pg}FUTURE DUDE: Everyone here learns your band's one rule in kindergarten:{pg}FUTURE DUDE: {rbw}Stay rad. Share your snacks.{/rbw}
+  - FUTURE DUDE: We built a whole society on that. Works great, honestly.
+  - FUTURE DUDE: Please don't flunk. My entire civilization is counting on you, no pressure.
+}
+"""
+NAME futuredude
+
+DLG teacher
+"""
+{
+  - figs >= 4 ?
+    MS. OKAFOR: Gus! You're late, and you've brought... guests? Well. Get up on that stage.
+  - else ?
+    MS. OKAFOR: Gus! You're late.
+}
+"""
+NAME teacher
+
+DLG rocko2
+ROCKO: Dude! Where have you been?! And why is Beethoven eating a corn dog?{pg}ROCKO: Never mind. Get to the middle of the stage. We're on!
+NAME rocko2
+
+DLG fin
+GUS & ROCKO present: "WHO WAS HISTORY?"{pg}SOCRATES tells the whole gym he knows nothing. The gym agrees with him. Huge applause.{pg}JOAN OF ARC gives a pep talk so fierce the football team wins three games that afternoon.{pg}BEETHOVEN plays the school piano so hard it falls off the stage. He cannot hear the cheering, but he can feel it.{pg}CLEOPATRA takes over student council by lunch.{pg}MS. OKAFOR: ...A plus. A PLUS. I have no idea what just happened.{pg}Rocko stays in Pinecrest. Velvet Thunderstorm lives. The future is safe.{pg}{rbw}Stay rad. Share your snacks.{/rbw}{pg}THE END
+NAME fin
+
+VAR figs
+0
+
+TUNE 1
+3d,0,0,0,3d5,0,0,0,3l,0,0,0,3s,0,0,0
+16d2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+>
+4l,0,0,0,s,0,3l,0,0,0,2s,0,2m,0,2r,0
+16m2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+>
+3d,0,0,0,3d5,0,0,0,3l,0,0,0,3s,0,0,0
+16l2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+>
+3l,0,0,0,s,0,4m,0,0,0,4r,0,0,0,0,0
+16s2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+NAME finale fanfare
+KEY C,D,E,F,G,A,B d,r,m,s,l
+TMP XFST
+SQR P2 P8
+ARP INT8
+
+TUNE 2
+0,0,2G,0,A,0,B,0,2C5,0,B,A,G,0,2G,0
+G3,0,D,0,G3,0,D,0,2A3,0,E,0,C,0,E,0
+>
+2F#,0,G,0,A,0,F#,0,2E,0,F#,E,4D,0,0,0
+2D,0,E,0,F#,0,D,0,2C,0,2G3,0,2F#3,0,D2,0
+>
+0,0,2G,0,A,0,B,0,2C5,0,B,A,G,0,G,0
+2G2,0,D,D5,G3,G,D,0,2C2,0,E,E5,C3,C,E5,0
+>
+2D,0,C5,B,A,0,A,0,4A,0,0,0,F#,0,0,0
+A2,0,E3,0,C3,0,E3,0,D3,0,A3,0,D,0,0,0
+NAME tuneful town
+TMP FST
+SQR P4 P2
+
+TUNE 3
+3F5,0,0,A#,0,2C#5,0,A#,3F5,0,0,F#5,0,0,2F5,0
+A#3,C#,F,0,0,F,C#,F,A#3,C#,F,A#,0,A#,C#,F
+>
+3F5,0,0,A,0,2C#5,0,A,3F5,0,0,2A#5,0,A#,D#5,0
+A3,C#,F,A3,0,F,C#,F,A,C#,F,0,D#,0,C#5,0
+>
+4F5,0,0,0,G#,2C#5,0,G#,3F5,0,0,D#5,0,F5,2C#5,0
+G#3,C#,F,3F#,0,0,2F,0,G#3,C#,F,F#,B,A,F,D#
+>
+4D#5,0,0,0,0,0,2A#,0,4A#,0,0,0,0,0,A#,C5
+G3,D#,F,G,0,D#,F,G,G3,D#,G,F,0,F,D#,C#3
+NAME rhythmic ruins
+TMP MED
+SQR P4 P4
+
+TUNE 4
+E,0,G,0,A,0,0,E,G,0,B,A,0,G,E,0
+E2,E2,E3,E2,E2,E2,E3,E2,G2,G2,G3,G2,A2,A2,A3,A2
+>
+E,0,G,0,A,0,0,E,G,0,2B,0,2D5,0,2E5,0
+E2,E2,E3,E2,E2,E2,E3,E2,D2,D2,D3,D2,B2,B2,B3,B2
+NAME chrono riff
+TMP FST
+SQR P2 P4
+
+BLIP 1
+E5,B5,B5
+NAME meow
+ENV 40 99 4 185 138
+BEAT 61 115
+SQR P2
+
+BLIP 2
+D5,E5,D5
+NAME strum
+ENV 99 65 6 96 152
+BEAT 95 0
+SQR P4
+
+BLIP 3
+C5,E5,G5
+NAME recruit
+ENV 99 65 6 96 152
+BEAT 80 0
+SQR P8
