@@ -74,6 +74,28 @@ PAL 10
 255,255,255
 NAME mall
 
+ROOM 13
+s,0,0,0,0,0,s,0,0,0,0,s,0,0,0,s
+0,0,s,0,0,0,0,0,0,0,0,0,s,0,0,0
+0,0,Lg,Lu,Ls,0,Lamp,0,Lr,Lo,Lc,Lk,Lo,0,0,0
+0,s,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,Lh,Li,Ls,Lt,Lo,Lr,Ly,0,0,0,0,0
+0,0,0,0,Lr,Le,Lp,Lo,Lr,Lt,0,0,0,s,0,0
+s,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,s,0,0,0,0,0
+0,s,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,s,0,0,0,0,0,0,0,0,0
+0,0,0,s,0,0,0,0,0,0,0,0,0,s,0,0
+0,0,0,0,0,0,0,c,0,0,0,0,0,0,0,0
+s,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,s,0,0,0,0
+0,s,0,0,0,s,0,0,0,0,0,0,0,0,s,0
+s,0,0,0,0,0,0,0,0,0,s,0,0,0,0,s
+NAME title screen
+EXT 7,11 0 9,9 FX fade_b DLG intro
+PAL 1
+TUNE 4
+
 ROOM 0
 w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w
 w,o,0,a,d,0,0,a,0,0,0,0,o,0,0,w
@@ -174,7 +196,7 @@ ITM s 13,2
 EXT 1,14 2 2,4 FX fade_b DLG to_hub
 EXT 13,4 3 13,3 DLG gate_athens
 PAL 2
-TUNE 3
+TUNE 5
 
 ROOM 4
 M,M,M,M,M,M,M,M,M,M,M,M,M,M,M,M
@@ -199,7 +221,7 @@ ITM j 11,3
 EXT 7,14 2 6,4 FX fade_b DLG to_hub
 EXT 11,5 4 11,4 DLG gate_france
 PAL 3
-TUNE 3
+TUNE 6
 
 ROOM 5
 m,m,m,m,m,m,m,m,m,m,m,m,m,m,m,m
@@ -226,7 +248,7 @@ ITM b 1,2
 EXT 7,14 2 9,4 FX fade_b DLG to_hub
 EXT 3,4 5 3,3 DLG gate_vienna
 PAL 4
-TUNE 3
+TUNE 7
 
 ROOM 6
 n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n
@@ -251,7 +273,7 @@ ITM c 12,5
 EXT 1,14 2 13,4 FX fade_b DLG to_hub
 EXT 12,7 6 12,6 DLG gate_egypt
 PAL 5
-TUNE 3
+TUNE 8
 
 ROOM 7
 F,F,F,F,F,F,F,F,F,F,F,F,F,F,F,F
@@ -273,7 +295,7 @@ F,F,F,F,F,F,F,F,F,F,F,F,F,F,F,F
 NAME the year 2688
 EXT 7,14 2 9,10 FX fade_b DLG to_hub
 PAL 6
-TUNE 4
+TUNE 12
 
 ROOM 9
 w,w,w,w,w,w,w,w,w,w,w,w,w,w,w,w
@@ -297,7 +319,7 @@ ITM m 13,1
 EXT 7,14 2 2,10 FX fade_b DLG to_hub
 EXT 13,3 9 13,2 DLG gate_dublin
 PAL 8
-TUNE 3
+TUNE 9
 
 ROOM 10
 m,m,m,m,m,m,m,m,m,m,m,m,m,m,m,m
@@ -322,7 +344,7 @@ ITM r 2,2
 EXT 7,14 2 6,10 FX fade_b DLG to_hub
 EXT 3,4 10 3,3 DLG gate_mexico
 PAL 9
-TUNE 3
+TUNE 10
 
 ROOM 11
 W,W,W,W,W,W,W,W,W,W,W,W,W,W,W,W
@@ -348,7 +370,7 @@ ITM 2 2,13
 EXT 15,7 12 1,7
 EXT 15,8 12 1,8
 PAL 10
-TUNE 2
+TUNE 11
 
 ROOM 12
 W,W,W,W,W,W,W,W,W,W,W,W,W,W,W,W
@@ -376,16 +398,16 @@ EXT 0,8 11 14,8
 EXT 7,15 8 7,13 FX fade_w DLG leave_mall
 EXT 8,15 8 8,13 FX fade_w DLG leave_mall
 PAL 10
-TUNE 2
+TUNE 11
 
 ROOM 8
 u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u
+u,S,S,S,S,S,S,S,S,S,S,S,S,S,S,u
+u,S,S,S,S,S,S,S,S,S,S,S,S,S,S,u
+u,S,S,S,S,S,S,S,S,S,S,S,S,S,S,u
+u,S,S,S,S,S,S,S,S,S,S,S,S,S,S,u
+u,K,K,K,K,K,K,H,K,K,K,K,K,K,K,u
 u,0,0,0,0,0,0,0,0,0,0,0,0,0,0,u
-u,0,0,0,0,0,0,0,0,0,0,0,0,0,0,u
-u,0,0,0,0,0,0,0,0,0,0,0,0,0,0,u
-u,0,S,S,S,S,S,S,S,S,S,S,S,S,0,u
-u,0,S,S,S,S,S,S,S,S,S,S,S,S,0,u
-u,0,S,S,S,S,S,S,S,S,S,S,S,S,0,u
 u,0,0,0,0,0,0,0,0,0,0,0,0,0,0,u
 u,0,0,0,0,0,0,0,0,0,0,0,0,0,0,u
 u,0,x,x,x,x,x,0,0,x,x,x,x,x,0,u
@@ -396,7 +418,8 @@ u,0,0,0,0,0,0,0,0,0,0,0,0,0,0,u
 u,0,0,0,0,0,0,0,0,0,0,0,0,0,0,u
 u,u,u,u,u,u,u,u,u,u,u,u,u,u,u,u
 NAME pinecrest high gym
-END fin 7,5
+EXT 7,5 8 7,4 DLG stairs
+END fin 7,2
 PAL 7
 TUNE 1
 
@@ -861,6 +884,197 @@ TIL O
 NAME fountain
 WAL true
 
+TIL H
+11111111
+00000000
+11111111
+00000000
+11111111
+00000000
+11111111
+00000000
+NAME stage stairs
+
+TIL K
+11111111
+11111111
+10101010
+01010101
+10101010
+01010101
+11111111
+00000000
+NAME stage edge
+WAL true
+
+TIL Lg
+00111100
+01100110
+11000000
+11001110
+11000110
+01100110
+00111110
+00000000
+NAME logo G
+WAL true
+
+TIL Lu
+11000110
+11000110
+11000110
+11000110
+11000110
+11000110
+01111100
+00000000
+NAME logo U
+WAL true
+
+TIL Ls
+01111100
+11000110
+11000000
+01111100
+00000110
+11000110
+01111100
+00000000
+NAME logo S
+WAL true
+
+TIL Lamp
+00111000
+01101100
+00111000
+01110110
+11011100
+11001100
+01110110
+00000000
+NAME logo &
+WAL true
+
+TIL Lr
+11111100
+11000110
+11000110
+11111100
+11011000
+11001100
+11000110
+00000000
+NAME logo R
+WAL true
+
+TIL Lo
+01111100
+11000110
+11000110
+11000110
+11000110
+11000110
+01111100
+00000000
+NAME logo O
+WAL true
+
+TIL Lc
+01111100
+11000110
+11000000
+11000000
+11000000
+11000110
+01111100
+00000000
+NAME logo C
+WAL true
+
+TIL Lk
+11000110
+11001100
+11011000
+11110000
+11011000
+11001100
+11000110
+00000000
+NAME logo K
+WAL true
+
+TIL Lh
+11000110
+11000110
+11000110
+11111110
+11000110
+11000110
+11000110
+00000000
+NAME logo H
+WAL true
+
+TIL Li
+01111110
+00011000
+00011000
+00011000
+00011000
+00011000
+01111110
+00000000
+NAME logo I
+WAL true
+
+TIL Lt
+11111111
+00011000
+00011000
+00011000
+00011000
+00011000
+00011000
+00000000
+NAME logo T
+WAL true
+
+TIL Ly
+11000110
+11000110
+01101100
+00111000
+00011000
+00011000
+00011000
+00000000
+NAME logo Y
+WAL true
+
+TIL Le
+11111110
+11000000
+11000000
+11111100
+11000000
+11000000
+11111110
+00000000
+NAME logo E
+WAL true
+
+TIL Lp
+11111100
+11000110
+11000110
+11111100
+11000000
+11000000
+11000000
+00000000
+NAME logo P
+WAL true
+
 SPR A
 00111100
 01111110
@@ -880,7 +1094,7 @@ SPR A
 00111100
 01000010
 NAME gus
-POS 0 9,9
+POS 13 7,13
 
 SPR r
 00111100
@@ -891,9 +1105,63 @@ SPR r
 01111110
 00111100
 00100100
+>
+00111100
+01111110
+00100100
+00111100
+00011000
+01111110
+00111100
+01000010
 NAME rocko
 DLG rocko
 POS 0 4,3
+
+SPR Z
+00000010
+00000100
+01111110
+01000010
+01011010
+01011010
+01000010
+01111110
+>
+00000000
+00000100
+01111110
+01000010
+01011010
+01011010
+01000010
+01111110
+NAME zip radio
+DLG hint
+POS 2 7,5
+BLIP 2
+
+SPR M
+00111100
+01111110
+11100111
+01100110
+00111100
+01111110
+11111111
+00100100
+>
+00111100
+01111110
+11100111
+01100110
+00111100
+11111111
+01111110
+00100100
+NAME rocko's mom
+DLG mom
+POS 8 5,6
 
 SPR z
 00011000
@@ -926,6 +1194,15 @@ SPR q
 00111100
 00100100
 00100100
+>
+00011000
+00111100
+00011000
+01111110
+00011000
+00111100
+00100100
+01000010
 NAME young plato
 DLG student
 POS 3 8,5
@@ -939,6 +1216,15 @@ SPR g
 00111100
 00100100
 01100110
+>
+00011000
+00111100
+00011000
+01111110
+10111101
+00111100
+00100100
+00111100
 NAME guard
 DLG guard
 POS 4 9,6
@@ -975,6 +1261,15 @@ SPR e
 01111110
 11111111
 11111111
+>
+00000000
+00111100
+00111100
+00011000
+00111100
+01111110
+01111110
+11111111
 NAME countess
 DLG countess
 POS 5 8,10
@@ -988,6 +1283,15 @@ SPR f
 00011100
 00111100
 00111110
+>
+00000000
+00000000
+00100010
+00111110
+00101010
+00111110
+00011100
+00111100
 NAME temple cat
 DLG cat
 POS 6 13,8
@@ -1024,6 +1328,15 @@ SPR n
 01111110
 00111100
 00100100
+>
+00000000
+01111100
+11111110
+00111100
+00011000
+01111110
+00111100
+01000010
 NAME newsboy
 DLG newsboy
 POS 9 3,10
@@ -1037,6 +1350,15 @@ SPR o
 00111100
 00111100
 00100100
+>
+01111110
+00111100
+00111100
+00011000
+01111110
+00111100
+00111100
+01000010
 NAME gardener
 DLG gardener
 POS 10 8,13
@@ -1050,6 +1372,15 @@ SPR c
 01011010
 00111100
 00100100
+>
+01111110
+00111100
+00111100
+00011000
+01111110
+01011010
+00111100
+01000010
 NAME mall cop
 DLG cop
 POS 11 9,9
@@ -1063,9 +1394,18 @@ SPR h
 01111110
 01111110
 00100100
+>
+00111100
+01111110
+01100110
+01100110
+00111100
+01111110
+01111110
+01000010
 NAME ms okafor
 DLG teacher
-POS 8 2,6
+POS 8 2,7
 
 SPR R
 00111100
@@ -1076,9 +1416,150 @@ SPR R
 01111110
 00111100
 00100100
+>
+00111100
+01111110
+00100100
+00111100
+00011000
+01111110
+00111100
+01000010
 NAME rocko at school
 DLG rocko2
 POS 8 9,6
+
+SPR ls
+00111100
+01000010
+01011010
+01111110
+00111100
+01111110
+01111110
+00100100
+>
+00111100
+01000010
+01011010
+01111110
+00111100
+01111110
+01111110
+01000010
+NAME socrates at school
+DLG school_socrates
+POS 8 3,8
+
+SPR lj
+00111100
+01111110
+01011010
+00111101
+01111111
+00111101
+00111100
+00100100
+>
+00111100
+01111110
+01011010
+00111101
+01111111
+00111101
+00111100
+01000010
+NAME joan at school
+DLG school_joan
+POS 8 4,8
+
+SPR lb
+10101010
+01111110
+11011011
+01111110
+00111100
+01111110
+00111100
+00100100
+>
+10101010
+01111110
+11011011
+01111110
+00111100
+01111110
+00111100
+01000010
+NAME beethoven at school
+DLG school_beethoven
+POS 8 5,8
+
+SPR lc
+00111100
+01111110
+11011011
+11111111
+10111101
+00111100
+00111100
+00100100
+>
+00111100
+01111110
+11011011
+11111111
+10111101
+00111100
+00111100
+01000010
+NAME cleopatra at school
+DLG school_cleopatra
+POS 8 10,8
+
+SPR lm
+00111100
+01111100
+01100110
+01111110
+00111100
+01111110
+01011010
+00100100
+>
+00111100
+01111100
+01100110
+01111110
+00111100
+01111110
+01011010
+01000010
+NAME collins at school
+DLG school_collins
+POS 8 11,8
+
+SPR lf
+10101010
+01111110
+01000010
+01111110
+01011010
+00111100
+01111110
+01111110
+>
+00000000
+10101010
+01111110
+01000010
+01111110
+01011010
+00111100
+01111110
+NAME frida at school
+DLG school_frida
+POS 8 12,8
 
 ITM g
 00000011
@@ -1167,6 +1648,15 @@ ITM s
 01111110
 01111110
 00100100
+>
+00111100
+01000010
+01011010
+01111110
+00111100
+01111110
+01111110
+01000010
 NAME socrates
 DLG socrates
 BLIP 3
@@ -1180,6 +1670,15 @@ ITM j
 00111101
 00111100
 00100100
+>
+00111100
+01111110
+01011010
+00111101
+01111111
+00111101
+00111100
+01000010
 NAME joan of arc
 DLG joan
 BLIP 3
@@ -1193,6 +1692,15 @@ ITM b
 01111110
 00111100
 00100100
+>
+10101010
+01111110
+11011011
+01111110
+00111100
+01111110
+00111100
+01000010
 NAME beethoven
 DLG beethoven
 BLIP 3
@@ -1206,6 +1714,15 @@ ITM c
 00111100
 00111100
 00100100
+>
+00111100
+01111110
+11011011
+11111111
+10111101
+00111100
+00111100
+01000010
 NAME cleopatra
 DLG cleopatra
 BLIP 3
@@ -1219,6 +1736,15 @@ ITM m
 01111110
 01011010
 00100100
+>
+00111100
+01111100
+01100110
+01111110
+00111100
+01111110
+01011010
+01000010
 NAME michael collins
 DLG collins
 BLIP 3
@@ -1231,6 +1757,15 @@ ITM r
 01011010
 00111100
 01111110
+01111110
+>
+00000000
+10101010
+01111110
+01000010
+01111110
+01011010
+00111100
 01111110
 NAME frida kahlo
 DLG frida
@@ -1245,6 +1780,15 @@ ITM 1
 01111110
 01111110
 00100100
+>
+00111100
+01000010
+01011010
+01111110
+00111100
+01111110
+01111110
+01000010
 NAME socrates at mall
 DLG mall_socrates
 BLIP 3
@@ -1258,6 +1802,15 @@ ITM 2
 00111101
 00111100
 00100100
+>
+00111100
+01111110
+01011010
+00111101
+01111111
+00111101
+00111100
+01000010
 NAME joan at mall
 DLG mall_joan
 BLIP 3
@@ -1271,6 +1824,15 @@ ITM 3
 01111110
 00111100
 00100100
+>
+10101010
+01111110
+11011011
+01111110
+00111100
+01111110
+00111100
+01000010
 NAME beethoven at mall
 DLG mall_beethoven
 BLIP 3
@@ -1284,6 +1846,15 @@ ITM 4
 00111100
 00111100
 00100100
+>
+00111100
+01111110
+11011011
+11111111
+10111101
+00111100
+00111100
+01000010
 NAME cleopatra at mall
 DLG mall_cleopatra
 BLIP 3
@@ -1297,6 +1868,15 @@ ITM 5
 01111110
 01011010
 00100100
+>
+00111100
+01111100
+01100110
+01111110
+00111100
+01111110
+01011010
+01000010
 NAME collins at mall
 DLG mall_collins
 BLIP 3
@@ -1309,6 +1889,15 @@ ITM 6
 01011010
 00111100
 01111110
+01111110
+>
+00000000
+10101010
+01111110
+01000010
+01111110
+01011010
+00111100
 01111110
 NAME frida at mall
 DLG mall_frida
@@ -1325,6 +1914,10 @@ DLG rocko
 """
 NAME rocko
 
+DLG intro
+{clr2}PINECREST, CALIFORNIA - 1988{/clr2}{pg}The night before the big oral history report.{pg}Gus and Rocko have not started.
+NAME intro
+
 DLG guitar
 You grab your air guitar. It is not plugged in. It never is. {wvy}Sick.{/wvy}
 NAME guitar
@@ -1334,7 +1927,7 @@ DLG zip
 {sequence
   - {clr2}???{/clr2}: Greetings, Gus of the year 1988. I am ZIP-7, a courier from the year 2688.{pg}ZIP: In my time, the whole planet runs on the music of Velvet Thunderstorm.{pg}ZIP: But if you fail tomorrow's history report, the band breaks up and the future gets... {shk}super lame{/shk}.
   - ZIP: That arcade cabinet is the CHRONO-CADE. It can go anywhen.{pg}ZIP: Bring SIX great figures of history back to your school. Let THEM give your report.{pg}ZIP: Heads up: legends are busy people. Each one will want a favor first.{pg}ZIP: The bottom-right portal leads home. It will not open until six legends are aboard.
-  - ZIP: Rocko will save your seats at the assembly. Now go! Time is, ironically, of the essence.
+  - ZIP: I left my radio in the time hub. Talk to it if you get stuck. Rocko will save your seats at the assembly.{pg}ZIP: Now go! Time is, ironically, of the essence.
   - ZIP: {wvy}Bleep bloop. Rock on, past-human.{/wvy}
 }
 """
@@ -1343,6 +1936,59 @@ NAME zip
 DLG board
 You drop a quarter into the CHRONO-CADE.{pg}{rbw}INSERT COIN... TIME TRAVEL!{/rbw}
 NAME board
+
+DLG hint
+"""
+{
+  - figs >= 6 ?
+    ZIP (radio): All six legends aboard! Bottom-right portal, dude. Go go go.
+  - {item "s"} == 0 ?
+    {
+      - {item "l"} >= 1 ?
+        ZIP (radio): You've got the scroll. Go read it at Socrates' door in Athens (top-left portal).
+      - else ?
+        ZIP (radio): Athens, top-left portal. Socrates wants an answer, and Plato hid it in the column maze. The way in is from the bottom row.
+    }
+  - {item "j"} == 0 ?
+    {
+      - {item "n"} >= 1 ?
+        ZIP (radio): Banner in hand! Show it to the guard at Joan's keep in Orleans.
+      - else ?
+        ZIP (radio): Orleans, second portal on top. Joan's banner is in the forest maze on the west side. Go in from the bottom-left and work your way up.
+    }
+  - {item "b"} == 0 ?
+    {
+      - pages >= 3 ?
+        ZIP (radio): All three pages! Slide them under Beethoven's door in Vienna.
+      - else ?
+        ZIP (radio): Vienna, third portal on top. You have {print pages} of 3 pages. Check the top-right corner, the little closet in the middle, and the room in the bottom-left.
+    }
+  - {item "c"} == 0 ?
+    {
+      - catok == 1 ?
+        ZIP (radio): The cat approves. Cleopatra's palace door is open in Alexandria.
+      - {item "f"} >= 1 ?
+        ZIP (radio): You have a fish. Give it to the temple cat. Trust me.
+      - else ?
+        ZIP (radio): Alexandria, top-right portal. The temple cat wants a fish. Look along the river at the top right.
+    }
+  - {item "m"} == 0 ?
+    {
+      - pw == 1 ?
+        ZIP (radio): You know the password. Knock on the green door at the top-right of the street in Dublin.
+      - else ?
+        ZIP (radio): Dublin, bottom-left portal. Michael Collins is hiding. The newsboy on the street knows how to get in.
+    }
+  - {item "r"} == 0 ?
+    {
+      - {item "k"} >= 1 ?
+        ZIP (radio): You've got the monkey! Take him to Frida's studio door in Coyoacan.
+      - else ?
+        ZIP (radio): Coyoacan, second portal on the bottom. Frida's monkey is in the far east corner of the cactus garden. Go up the right side first.
+    }
+}
+"""
+NAME hint
 
 DLG to_athens
 {clr2}ATHENS, GREECE - 399 BC{/clr2}
@@ -1624,7 +2270,7 @@ DLG teacher
 """
 {
   - found >= 6 ?
-    MS. OKAFOR: Gus! You're late, and you've brought... guests? Well. Get up on that stage.
+    MS. OKAFOR: Gus! You're late, and you've brought... guests? Well. Your report is next, if Mrs. Kowalski will allow it.
   - else ?
     MS. OKAFOR: Gus! You're late.
 }
@@ -1632,11 +2278,74 @@ DLG teacher
 NAME teacher
 
 DLG rocko2
-ROCKO: Dude! Where have you been?! And why is Beethoven eating a corn dog?{pg}ROCKO: Never mind. Get to the middle of the stage. We're on!
+"""
+{
+  - momok == 1 ?
+    ROCKO: You got my MOM to say yes?! Get up on that stage, dude. We're on!
+  - else ?
+    ROCKO: Dude! Where have you been?! And why is Beethoven eating a corn dog?{pg}ROCKO: Bad news. My mom's here. The car is packed. She's driving me to Nebraska RIGHT NOW unless we can talk her down.{pg}ROCKO: We need someone who's good at, like, negotiating.
+}
+"""
 NAME rocko2
 
+DLG mom
+"""
+{
+  - momok == 1 ?
+    MRS. KOWALSKI: One report. If it's not an A, we leave at 10:30. I'm not kidding.{pg}MRS. KOWALSKI: ...Is that really Cleopatra?
+  - else ?
+    {sequence
+      - MRS. KOWALSKI: Gus. You're late. The report hasn't even started and Rocko is already failing.{pg}MRS. KOWALSKI: The car is packed. Aunt Doris has made up the guest room. Rocko is not going on that stage.
+      - MRS. KOWALSKI: I don't care who your friends in costumes are. We are leaving.
+    }
+}
+"""
+NAME mom
+
+DLG stairs
+"""
+{
+  - momok == 1 ?
+    {property locked false}You climb up onto the stage. The gym goes quiet.
+  - else ?
+    {property locked true}MRS. KOWALSKI steps in front of the stairs.{pg}MRS. KOWALSKI: Not. A. Chance.
+}
+"""
+NAME stairs
+
+DLG school_socrates
+SOCRATES: I asked the woman why she wishes to leave. Then why. Then why again. She has asked me to stop.
+NAME school_socrates
+
+DLG school_joan
+JOAN OF ARC: I would charge at her, but I sense this battle needs a gentler touch. Ask the Irishman. He makes treaties.
+NAME school_joan
+
+DLG school_beethoven
+BEETHOVEN: {shk}WHAT?{/shk}{pg}BEETHOVEN: (He offers you a bite of his corn dog.)
+NAME school_beethoven
+
+DLG school_cleopatra
+CLEOPATRA: I could simply command her. But mothers are the one power even pharaohs fear.
+NAME school_cleopatra
+
+DLG school_frida
+FRIDA KAHLO: That woman loves her son very much. She is also terrifying. I would like to paint her.
+NAME school_frida
+
+DLG school_collins
+"""
+{
+  - momok == 1 ?
+    COLLINS: She drives a hard bargain. I've had easier days in London.
+  - else ?
+    {momok = 1}COLLINS: A negotiation, is it? Leave this to me.{pg}(Michael Collins walks over to Mrs. Kowalski. They talk for a long time. There is pointing. There is a handshake.){pg}COLLINS: One report, and if it earns an A, the lad stays in Pinecrest. It's not everything you wanted, but it's the freedom to get there.{pg}{clr2}Mrs. Kowalski agrees to let Rocko on stage.{/clr2}
+}
+"""
+NAME school_collins
+
 DLG fin
-GUS & ROCKO present: "WHO WAS HISTORY?"{pg}SOCRATES tells the whole gym he knows nothing. The gym agrees with him. Huge applause.{pg}JOAN OF ARC gives a pep talk so fierce the football team wins three games that afternoon.{pg}BEETHOVEN plays the school piano so hard it falls off the stage. He cannot hear the cheering, but he can feel it.{pg}CLEOPATRA takes over student council by lunch.{pg}MICHAEL COLLINS explains how to negotiate a treaty. Three kids go on to become diplomats. Nobody can explain how he got to the gym.{pg}FRIDA KAHLO paints Ms. Okafor's portrait on the gym wall. Nobody is ever allowed to paint over it.{pg}MS. OKAFOR: ...A plus. A PLUS. I have no idea what just happened.{pg}Rocko stays in Pinecrest. Velvet Thunderstorm lives. The future is safe.{pg}{rbw}Stay rad. Share your snacks.{/rbw}{pg}THE END
+GUS & ROCKO present: "WHO WAS HISTORY?"{pg}SOCRATES tells the whole gym he knows nothing. The gym agrees with him. Huge applause.{pg}JOAN OF ARC gives a pep talk so fierce the football team wins three games that afternoon.{pg}BEETHOVEN plays the school piano so hard it falls off the stage. He cannot hear the cheering, but he can feel it.{pg}CLEOPATRA takes over student council by lunch.{pg}MICHAEL COLLINS explains how to negotiate a treaty. Three kids go on to become diplomats. Nobody can explain how he got to the gym.{pg}FRIDA KAHLO paints Ms. Okafor's portrait on the gym wall. Nobody is ever allowed to paint over it.{pg}MS. OKAFOR: ...A plus. A PLUS. I have no idea what just happened.{pg}MRS. KOWALSKI unpacks the car. Aunt Doris is told, gently, that Rocko is staying in Pinecrest.{pg}Velvet Thunderstorm lives. The future is safe.{pg}{rbw}Stay rad. Share your snacks.{/rbw}{pg}THE END
 NAME fin
 
 VAR figs
@@ -1652,6 +2361,9 @@ VAR pw
 0
 
 VAR pages
+0
+
+VAR momok
 0
 
 TUNE 1
@@ -1713,6 +2425,122 @@ E2,E2,E3,E2,E2,E2,E3,E2,D2,D2,D3,D2,B2,B2,B3,B2
 NAME chrono riff
 TMP FST
 SQR P2 P4
+
+TUNE 5
+2A,0,2C5,0,2D5,0,2E5,0,2D5,0,2C5,0,2A,0,2G,0
+8A2,0,0,0,0,0,0,0,8E3,0,0,0,0,0,0,0
+>
+4A,0,0,0,2E,0,2G,0,8A,0,0,0,0,0,0,0
+8D3,0,0,0,0,0,0,0,8A2,0,0,0,0,0,0,0
+>
+2E5,0,2D5,0,2C5,0,2D5,0,4E5,0,0,0,4G5,0,0,0
+8C3,0,0,0,0,0,0,0,8G2,0,0,0,0,0,0,0
+>
+2E5,0,2D5,0,2C5,0,2A,0,8A,0,0,0,0,0,0,0
+8D3,0,0,0,0,0,0,0,8A2,0,0,0,0,0,0,0
+NAME athens lyre
+TMP MED
+SQR P8 P4
+
+TUNE 6
+2D,0,D,F#,4A,0,0,0,2G,0,2F#,0,4E,0,0,0
+8D3,0,0,0,0,0,0,0,8A2,0,0,0,0,0,0,0
+>
+2D,0,2E,0,2F#,0,2G,0,4A,0,0,0,4D5,0,0,0
+8G2,0,0,0,0,0,0,0,8D3,0,0,0,0,0,0,0
+>
+2C5,0,2A,0,2B,0,2G,0,4A,0,0,0,4F#,0,0,0
+8C3,0,0,0,0,0,0,0,8D3,0,0,0,0,0,0,0
+>
+2G,0,2E,0,2F#,0,2E,0,8D,0,0,0,0,0,0,0
+8A2,0,0,0,0,0,0,0,8D3,0,0,0,0,0,0,0
+NAME orleans fanfare
+TMP FST
+SQR P4 P2
+
+TUNE 7
+2F#,0,2F#,0,2G,0,2A,0,2A,0,2G,0,2F#,0,2E,0
+8D3,0,0,0,0,0,0,0,8A2,0,0,0,0,0,0,0
+>
+2D,0,2D,0,2E,0,2F#,0,3F#,0,0,E,4E,0,0,0
+8D3,0,0,0,0,0,0,0,8A2,0,0,0,0,0,0,0
+>
+2F#,0,2F#,0,2G,0,2A,0,2A,0,2G,0,2F#,0,2E,0
+8D3,0,0,0,0,0,0,0,8A2,0,0,0,0,0,0,0
+>
+2D,0,2D,0,2E,0,2F#,0,3E,0,0,D,4D,0,0,0
+8A2,0,0,0,0,0,0,0,8D3,0,0,0,0,0,0,0
+NAME vienna joy
+TMP MED
+SQR P2 P4
+
+TUNE 8
+2D,0,D#,F#,4G,0,0,0,2A,0,2A#,0,4A,0,0,0
+16D3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+>
+2G,0,2F#,0,2D#,0,2F#,0,8D,0,0,0,0,0,0,0
+16D3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+>
+2A,0,A#,A,4G,0,0,0,2F#,0,2G,0,4A,0,0,0
+16G2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+>
+2A#,0,2A,0,2G,0,2F#,0,8D,0,0,0,0,0,0,0
+16D3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+NAME alexandria
+TMP MED
+SQR P8 P2
+
+TUNE 9
+D,F#,A,2D5,0,A,B,A,F#,D,E,F#,2G,0,2E,0
+4D3,0,0,0,4A3,0,0,0,4D3,0,0,0,4G3,0,0,0
+>
+F#,A,D5,2C#5,0,A,B,G,F#,E,2D,0,2D,0,0,0
+4D3,0,0,0,4A2,0,0,0,8D3,0,0,0,0,0,0,0
+NAME dublin jig
+TMP FST
+SQR P4 P4
+
+TUNE 10
+2G,0,2C5,0,2E5,0,2D5,0,2C5,0,2A,0,4G,0,0,0
+4C3,0,0,0,4G3,0,0,0,4C3,0,0,0,4G3,0,0,0
+>
+2F,0,2A,0,2C5,0,2B,0,2G,0,2D,0,4C,0,0,0
+4F2,0,0,0,4C3,0,0,0,4G2,0,0,0,4C3,0,0,0
+>
+2E,0,2G,0,2C5,0,2E5,0,4F5,0,0,0,4E5,0,0,0
+4C3,0,0,0,4G3,0,0,0,4F2,0,0,0,4C3,0,0,0
+>
+2D5,0,2B,0,2G,0,2B,0,8C5,0,0,0,0,0,0,0
+4G2,0,0,0,4D3,0,0,0,8C3,0,0,0,0,0,0,0
+NAME casa azul
+TMP MED
+SQR P4 P8
+
+TUNE 11
+2E5,0,2B,0,2G,0,2B,0,2E5,0,2F#5,0,4G5,0,0,0
+2E2,0,2E3,0,2E2,0,2E3,0,2E2,0,2E3,0,2E2,0,2E3,0
+>
+2F#5,0,2D5,0,2B,0,2D5,0,4A,0,0,0,4B,0,0,0
+2D2,0,2D3,0,2D2,0,2D3,0,2G2,0,2G3,0,2G2,0,2G3,0
+>
+2E5,0,2B,0,2G,0,2B,0,2E5,0,2G5,0,4A5,0,0,0
+2C2,0,2C3,0,2C2,0,2C3,0,2C2,0,2C3,0,2C2,0,2C3,0
+>
+2G5,0,2F#5,0,2D5,0,2B,0,8E5,0,0,0,0,0,0,0
+2D2,0,2D3,0,2D2,0,2D3,0,2E2,0,2E3,0,2E2,0,2E3,0
+NAME mall synth
+TMP FST
+SQR P2 P8
+
+TUNE 12
+4C5,0,0,0,4G,0,0,0,4E5,0,0,0,4D5,0,0,0
+8C3,0,0,0,0,0,0,0,8A2,0,0,0,0,0,0,0
+>
+4A,0,0,0,4F,0,0,0,8G,0,0,0,0,0,0,0
+8F2,0,0,0,0,0,0,0,8G2,0,0,0,0,0,0,0
+NAME year 2688
+TMP SLW
+SQR P8 P8
 
 BLIP 1
 E5,B5,B5
